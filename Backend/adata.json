@@ -1,0 +1,138 @@
+    {
+        "men_shoe":[
+    {
+    "title":"Nike Air Max TW",
+    "img":[
+    "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/81060e5a-3b38-41e6-9b57-65134e0470fa/air-max-tw-shoes-DhpWvV.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5638aa3c-36da-438f-a41c-7cbd9ec9dce1/air-max-tw-shoes-DhpWvV.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/9265edc0-eb2e-40de-a224-1da42557b371/air-max-tw-shoes-DhpWvV.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/3a59615f-7032-4c60-8848-5267fcdba4b6/air-max-tw-shoes-DhpWvV.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/393a1121-5618-40fc-95ae-6ec858677cfd/air-max-tw-shoes-DhpWvV.png"],
+    "category":"shoes",
+    "gender":"men",
+    "size":["Small","Medium","Large"],
+    "rating":4.5,
+    "description":"Men's Shoes",
+    "price":12780,
+    "color":"black"
+    },
+
+    {
+    "title":"Nike Air Force 1 Mid React",
+    "img":[
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/c81c5848-a7ac-4876-a77b-a5fd34b967af/air-force-1-mid-react-shoes-HlVLjS.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f8ff569e-9f3f-4309-8631-4efbe8d528d7/air-force-1-mid-react-shoes-HlVLjS.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/9076762b-1ac7-44b4-8904-7e7a43622284/air-force-1-mid-react-shoes-HlVLjS.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6a855fc-86be-4a21-9586-5d9c553ab468/air-force-1-mid-react-shoes-HlVLjS.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b0db1067-af2b-4f4a-8146-255cb9e8af55/air-force-1-mid-react-shoes-HlVLjS.png"],
+    "category":"shoes",
+    "gender":"men",
+    "size":["Small","Medium","Large"],
+    "rating":4,
+    "description":"Men's Shoes",
+    "price":10150,
+    "color":"white"
+    },
+
+    {
+    "title":"Nike Zoom Fly 5",
+    "img":[
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/c81c5848-a7ac-4876-a77b-a5fd34b967af/air-force-1-mid-react-shoes-HlVLjS.pnghttps://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/cdb4e7b0-7772-41aa-82c0-4306f53050b6/zoom-fly-5-road-running-shoes-lkx7Zp.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f5bb8ced-7e94-4cb6-b53c-0f6e84254b1f/zoom-fly-5-road-running-shoes-lkx7Zp.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/b9eefda1-b8db-40b5-b684-52214d0517ea/zoom-fly-5-road-running-shoes-lkx7Zp.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/422fc377-fd3f-4ef0-a398-48fa1215a2ac/zoom-fly-5-road-running-shoes-lkx7Zp.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/1cb2b673-ee60-497b-9e1f-7e64cb672a22/zoom-fly-5-road-running-shoes-lkx7Zp.png"],
+    "category":"shoes",
+    "gender":"men",
+    "size":["Small","Medium","Large"],
+    "rating":3.8,
+    "description":"Men's Road Running Shoes",
+    "price":19600,
+    "color":"orange"
+    },
+
+    {
+    "title":"Nike Air Zoom Pegasus 39",
+    "img":[
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4429a535-2333-423d-9473-eb728ad603b7/air-zoom-pegasus-39-road-running-shoes-kmZSD6.png",
+    "https://static.nike.com/a/videos/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,so_0/eac4ab23-e17a-46a1-beb1-5b3a73d998a7/air-zoom-pegasus-39-road-running-shoes-kmZSD6.jpg",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/c027ff59-654c-4abf-b185-c96ea0ecd486/air-zoom-pegasus-39-road-running-shoes-kmZSD6.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/bdef8f8d-aab2-416b-81f7-68aa6f5f8cfb/air-zoom-pegasus-39-road-running-shoes-kmZSD6.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/2de2ed7e-1559-4bb5-956e-82d09e4dc493/air-zoom-pegasus-39-road-running-shoes-kmZSD6.png"],
+    "category":"shoes",
+    "gender":"men",
+    "size":["Small","Medium","Large"],
+    "rating":5,
+    "description":"Men's Road Running Shoes",
+    "price":16400,
+    "color":"pink"
+    },
+
+    {
+    "title":"Nike SB Zoom Blazer Mid Premium",
+    "img":[
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1688dccb-f83c-4b5e-96d9-87ed2727780d/sb-zoom-blazer-mid-skate-shoes-2fTd1w.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/721dda30-7a60-4913-9b03-848b6bb2e691/sb-zoom-blazer-mid-skate-shoes-2fTd1w.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/3a5e5c64-626e-4f86-84b6-a3680b3c12c3/sb-zoom-blazer-mid-skate-shoes-2fTd1w.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/d23cb8df-94f4-4380-97be-f0effd2d6b06/sb-zoom-blazer-mid-skate-shoes-2fTd1w.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/01ad494d-81b4-4a19-b357-cf6e7bc91a61/sb-zoom-blazer-mid-skate-shoes-2fTd1w.png"],
+    "category":"shoes",
+    "gender":"men",
+    "size":["Small","Medium","Large"],
+    "rating":4.2,
+    "description":"Skate Shoes",
+    "price":13200,
+    "color":"white"
+    },
+
+    {
+    "title":"Nike SB Zoom Blazer Mid Premium Plus",
+    "img":[
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ffd71468-75b5-45bb-a3ec-78a510e16b7f/sb-zoom-blazer-mid-plus-skate-shoes-tMlr98.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/eca35065-ea01-4fc9-9d27-b2b8037104fc/sb-zoom-blazer-mid-plus-skate-shoes-tMlr98.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1aff4c51-409b-4abc-b4d6-746b5c6ba7e4/sb-zoom-blazer-mid-plus-skate-shoes-tMlr98.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4e300a8f-fd1a-446d-8d0f-31c84d7e17c7/sb-zoom-blazer-mid-plus-skate-shoes-tMlr98.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/faadb158-b48c-4970-a32b-f3a0446f9d9e/sb-zoom-blazer-mid-plus-skate-shoes-tMlr98.png" ],
+    "category":"shoes",
+    "gender":"men",
+    "size":["Small","Medium","Large"],
+    "rating":3.8,
+    "description":"Skate Shoes",
+    "price":15300,
+    "color":"black"
+    }, 
+
+    {
+        "title":"Nike Air Zoom Alphafly NEXT% 2",
+        "img":["https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/928f082e-4b98-4fb5-9eb2-13929291857e/air-zoom-alphafly-next-2-road-racing-shoes-cVPHCD.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/75bdc7ed-f118-4596-8d40-632d508ef2eb/air-zoom-alphafly-next-2-road-racing-shoes-cVPHCD.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/d5373f6a-9832-4a47-8729-ffe8afe4ee1b/air-zoom-alphafly-next-2-road-racing-shoes-cVPHCD.png","https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/55c8efd5-d7c3-4e6a-9457-d54597ac9b69/air-zoom-alphafly-next-2-road-racing-shoes-cVPHCD.png"
+        ,"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/6673fdec-b63e-487b-be72-1433dd9e760c/air-zoom-alphafly-next-2-road-racing-shoes-cVPHCD.png"],
+        "category":"shoes",
+        "gender":"men",
+        "size":["Small","Medium","Large"],
+        "rating":3.8,
+        "description":"Men's Road Racing Shoes",
+        "price":17300,
+        "color":"orange"
+        },
+
+        {
+            "title":"Air Jordan 1 Retro High OG",
+            "img":[
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b3cb2095-b729-404b-8cdc-3383771d0036/air-jordan-1-retro-high-og-shoes-G8hcQx.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/238b740d-ce6e-4b9b-8c67-b595fa4973ae/air-jordan-1-retro-high-og-shoes-G8hcQx.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/095f7378-7f3e-4940-aa95-4bfea80259c0/air-jordan-1-retro-high-og-shoes-G8hcQx.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/77ee419d-5cdc-4572-94f2-0974c4ad1b4a/air-jordan-1-retro-high-og-shoes-G8hcQx.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/bfc1c6ce-ee36-4a7c-b1d7-483216ed86e6/air-jordan-1-retro-high-og-shoes-G8hcQx.png" ],
+            "category":"shoes",
+            "gender":"men",
+            "size":["Small","Medium","Large"],
+            "rating":4.8,
+            "description":"Men's Road Racing Shoes",
+            "price":15900,
+            "color":"white"
+            }
+
+        ]
+    }

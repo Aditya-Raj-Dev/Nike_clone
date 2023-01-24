@@ -1,0 +1,82 @@
+.navbar{
+    background-color:rgb(234, 234, 234) ;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px 5px 40px;
+    align-items: center;
+}
+.navbarprod{
+    display: flex;
+    gap:1rem;
+    
+  }
+  .navbarprod h3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .navbarcart{
+    display: flex;
+    gap:1.2rem;
+    
+  }
+  .navsearch{
+    height: 35px;
+    border: 0px;
+    border-radius:18px;
+    align-items: center;
+  }
+
+  .circle {
+   padding:4px;
+    border-radius: 25px; /* make the element circular */
+    background-color: rgb(234, 234, 234) ;
+  }
+  
+  .circle:hover {
+    background-color: rgb(203, 196, 196);
+    cursor: pointer;
+  }
+ .navsearch::placeholder{
+   margin-top: 10px;
+    font-size: large;
+ }
+
+ .hamburger{
+    display: none;
+ }
+
+
+ @media only screen and (max-width: 868px) {
+   .navbarprod,.navbarcart{
+    display: none;
+   }
+
+   .hamburger{
+    display: block;
+    padding:4px;
+    background-color: rgb(234, 234, 234) ;
+   }
+
+   .hamburger:hover {
+    background-color: rgb(203, 196, 196);
+    cursor: pointer;
+  }
+  
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .navbarprod,.navbarcart{
+        display: none;
+       }
+
+       .hamburger{
+        display: block;
+        padding:4px;
+        background-color: rgb(234, 234, 234) ;
+       }
+    
+       .hamburger:hover {
+        background-color: rgb(203, 196, 196);
+        cursor: pointer;
+      }
+  }

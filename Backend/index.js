@@ -1,18 +1,18 @@
 const express =require("express")
-
+const cors=require("cors")
 const { Login } = require("./controller/Signup/Login.controller")
 const { connection } = require("./database/db")
-const { ShoesRoute } = require("./Route/Shoes/shoes.route")
+const { MensRoute } = require("./Route/Mens/Mens.route")
 const { LoginRoute } = require("./Route/Signup/Login.route")
 const { SignupRoute } = require("./Route/Signup/signup.route")
 
 const app=express()
-
+app.use(cors());
 app.use(express.json())
 
 app.use("/signup",SignupRoute)
 app.use("/login",LoginRoute)
-app.use("/shoes",ShoesRoute)
+app.use("/mens",MensRoute)
 
 app.get("/",(req,res)=>{
     res.send("Welcome to my world")

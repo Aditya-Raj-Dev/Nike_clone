@@ -12,7 +12,7 @@ const PostMany = (model) => async (req, res) => {
     const data = await model.insertMany(req.body);
     res.status(201).send({ msg: "successfull", data: data });
   } catch (e) {
-    res.status(500).send({ msg: "failed" });
+    res.status(500).send({ msg: e });
   }
 };
 

@@ -1,5 +1,5 @@
     {
-        "men_shoe":[
+        "men":[
     {
     "title":"Nike Air Max TW",
     "img":[
@@ -16,6 +16,58 @@
     "price":12780,
     "color":"black"
     },
+    {
+        "title":"Nike Sportswear",
+        "img":[
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f639f1d2-30eb-482f-9a44-bd1e75d5dc98/sportswear-t-shirt-RHqD0P.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1fa309c5-27cd-4c0a-af87-cd36b736dc59/sportswear-t-shirt-RHqD0P.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/c90365f4-b4f9-4ae1-9708-058ffcf546ac/sportswear-t-shirt-RHqD0P.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/cffacd6c-24e8-492c-a4c2-2490c125ddee/sportswear-t-shirt-RHqD0P.png"],
+        "category":"T-shirt",
+        "gender":"men",
+        "size":["Small","Medium","Large"],
+        "rating":3.7,
+        "price":1389,
+        "description":"Men's White T-shirt",
+        "color":"white" 
+    },
+    {
+        "title":"Nike Sportswear Tech Fleece",
+        "img":[
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b7b26b55-85c6-463a-8372-a10b9dba734f/sportswear-tech-fleece-hoodie-bxk5v8.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5a0ed60f-c46e-4799-ad02-5cb3bd0b2402/sportswear-tech-fleece-hoodie-bxk5v8.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a8dc89c8-568f-4f49-a068-3f1dbf8fd9dc/sportswear-tech-fleece-hoodie-bxk5v8.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/c5694db4-9acd-4697-a690-467f10d8254b/sportswear-tech-fleece-hoodie-bxk5v8.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/369d787f-46d7-4c6e-ac8c-afe886d82950/sportswear-tech-fleece-hoodie-bxk5v8.png"
+        ],
+        "category":"hoodie",
+        "gender":"men",
+        "size":["Small","Medium","Large"],
+        "rating":3.9,
+        "description":"Men's Full-Zip Hoodie",
+        "price":6495,
+        "color":"black" 
+    },
+
+    {
+        "title":"Nike Dri-FIT Challenger",
+        "img":[
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/8b080ecc-358a-457a-9da7-d00d3076632b/dri-fit-challenger-knit-running-trousers-NxKxTz.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/6425b9e2-282d-4fb0-9943-0608e15bc513/dri-fit-challenger-knit-running-trousers-NxKxTz.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b10d1edf-21e2-439e-b10b-4cc3f12fe6c0/dri-fit-challenger-knit-running-trousers-NxKxTz.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/eb4356cc-1e6d-4bd5-9ae0-8ea7061493c1/dri-fit-challenger-knit-running-trousers-NxKxTz.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f0c0becb-5a2f-48ee-868f-2fbc42226a55/dri-fit-challenger-knit-running-trousers-NxKxTz.png"
+        ],
+        "category":"trouser",
+        "gender":"men",
+        "size":["Small","Medium","Large"],
+        "rating":4.2,
+        "description":"Men's Knit Running Trousers",
+        "price":3495,
+        "color":"black" 
+    },
+
+ 
 
     {
     "title":"Nike Air Force 1 Mid React",
@@ -35,9 +87,63 @@
     },
 
     {
+    "title":"Nike Sportswear",
+    "img":[
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/j91jpffqdsrunwuu55wn/sportswear-polo-m8t43N.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/klfpsq9ewra8ngavkymr/sportswear-polo-m8t43N.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/utni8j42tjmy8r1zhw3j/sportswear-polo-m8t43N.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/agajdfkwvylmznrorrxu/sportswear-polo-m8t43N.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/apmjpnvad1hlfqibnztp/sportswear-polo-m8t43N.png"
+   ],
+    "category":"T-shirt",
+    "gender":"men",
+    "size":["Small","Medium","Large"],
+    "rating":4.9,
+    "description":"Men's Polo",
+    "price":1795,
+    "color":"black"
+    },
+
+    {
+        "title":"Nike Sportswear Circa",
+        "img":[
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ba5f80e7-7e11-4fd6-8684-b4b0d832ed57/sportswear-circa-lined-winterized-trousers-bhFQ2B.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0341eba6-16fe-4c15-aebd-64a7602bb326/sportswear-circa-lined-winterized-trousers-bhFQ2B.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/8111a853-825b-40a2-b304-f40161dd9e57/sportswear-circa-lined-winterized-trousers-bhFQ2B.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ccd0cf9a-42d4-4bf4-a7f7-f8a862876edf/sportswear-circa-lined-winterized-trousers-bhFQ2B.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5d2eef02-0889-45e9-af64-5a68ff670d44/sportswear-circa-lined-winterized-trousers-bhFQ2B.png"
+        ],
+        "category":"trouser",
+        "gender":"men",
+        "size":["Small","Medium","Large"],
+        "rating":3.2,
+        "description":"Men's Lined Winterized Trousers",
+        "price":7695,
+        "color":"white" 
+    },
+
+
+    {
+        "title":"Jordan Dri-FIT Sport BC",
+        "img":[
+      "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7cb6d102-a306-49af-bb12-49f35d76e1d0/jordan-dri-fit-sport-bc-fleece-hoodie-zxvRkq.png",
+      "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/af756a2c-d171-4375-9d75-f9d6826bbf06/jordan-dri-fit-sport-bc-fleece-hoodie-zxvRkq.png",
+      "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/3803230d-328a-4d85-b49c-eea25a7b8fb4/jordan-dri-fit-sport-bc-fleece-hoodie-zxvRkq.png",
+      "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/9feb26ca-135a-4f39-a33b-ebb3c223b402/jordan-dri-fit-sport-bc-fleece-hoodie-zxvRkq.png",
+      "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/fc646e04-47b6-42b3-a746-6893524bfa92/jordan-dri-fit-sport-bc-fleece-hoodie-zxvRkq.png"
+      ],
+        "category":"hoodie",
+        "gender":"men",
+        "size":["Small","Medium","Large"],
+        "rating":3.9,
+        "description":"Men's Fleece Hoodie",
+        "price":3695,
+        "color":"black"
+        },
+
+    {
     "title":"Nike Zoom Fly 5",
     "img":[
-    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/c81c5848-a7ac-4876-a77b-a5fd34b967af/air-force-1-mid-react-shoes-HlVLjS.pnghttps://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/cdb4e7b0-7772-41aa-82c0-4306f53050b6/zoom-fly-5-road-running-shoes-lkx7Zp.png",
     "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f5bb8ced-7e94-4cb6-b53c-0f6e84254b1f/zoom-fly-5-road-running-shoes-lkx7Zp.png",
     "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/b9eefda1-b8db-40b5-b684-52214d0517ea/zoom-fly-5-road-running-shoes-lkx7Zp.png",
     "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/422fc377-fd3f-4ef0-a398-48fa1215a2ac/zoom-fly-5-road-running-shoes-lkx7Zp.png",
@@ -51,6 +157,24 @@
     "color":"orange"
     },
 
+    {
+        "title":"Jordan Flight MVP",
+        "img":[
+           "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/07f72356-0147-485f-9b29-46a4d1916303/jordan-flight-mvp-graphic-t-shirt-1qXkl8.png",
+           "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ebd27003-380f-460a-aeaa-d38170509ccb/jordan-flight-mvp-graphic-t-shirt-1qXkl8.png",
+           "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/318d8eb9-dc4a-4f45-9f6a-1e5a2dc1e9c2/jordan-flight-mvp-graphic-t-shirt-1qXkl8.png",
+           "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ce91b9ce-84c3-4e80-86a9-da177f437db1/jordan-flight-mvp-graphic-t-shirt-1qXkl8.png",
+           "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0023e283-7a11-4cd2-b9d1-274a172c5204/jordan-flight-mvp-graphic-t-shirt-1qXkl8.png"
+       ],
+        "category":"T-shirt",
+        "gender":"men",
+        "size":["Small","Medium","Large"],
+        "rating":3.1,
+        "description":"Men's Graphic T-Shirt",
+        "price":1995,
+        "color":"orange"
+        },
+    
     {
     "title":"Nike Air Zoom Pegasus 39",
     "img":[
@@ -69,6 +193,61 @@
     },
 
     {
+        "title":"Jordan Essentials",
+        "img":[
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0b9734d0-bf56-4070-bc21-04ff61bdc600/jordan-essentials-holiday-french-terry-trousers-N27q6t.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e70ee917-ebbc-4a3b-a076-9ca73ececd64/jordan-essentials-holiday-french-terry-trousers-N27q6t.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/813f1f9b-9447-45d6-a897-adce18dd3a50/jordan-essentials-holiday-french-terry-trousers-N27q6t.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/daa46ae4-a84d-4d77-a7f8-b0000eedc54b/jordan-essentials-holiday-french-terry-trousers-N27q6t.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/dbdc6504-ab3c-4e41-b08e-162fca212a2c/jordan-essentials-holiday-french-terry-trousers-N27q6t.png"
+        ],
+        "category":"trouser",
+        "gender":"men",
+        "size":["Small","Medium","Large"],
+        "rating":4.2,
+        "description":"Men's Holiday French Terry Trousers",
+        "price":3795,
+        "color":"red" 
+    },
+
+    {
+        "title":"Jordan Jumpman",
+        "img":[
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a12c3f6e-f495-44c0-b9fc-f5e917232439/jordan-jumpman-t-shirt-Mn59WH.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/38db4038-505b-426c-8de9-954f1d6c3c91/jordan-jumpman-t-shirt-Mn59WH.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/849a2571-f046-4250-a20d-605f136349a8/jordan-jumpman-t-shirt-Mn59WH.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/84661e5f-272c-4ead-8d94-b44e51cb29a5/jordan-jumpman-t-shirt-Mn59WH.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/62951120-4636-43a8-a2ec-9bf5f1f9e86f/jordan-jumpman-t-shirt-Mn59WH.png"
+       ],
+        "category":"T-shirt",
+        "gender":"men",
+        "size":["Small","Medium","Large"],
+        "rating":3.1,
+        "description":"Men's Graphic T-Shirt",
+        "price":1595,
+        "color":"red"
+        },
+
+        {
+            "title":"Naomi Osaka Collection",
+            "img":[
+       "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/44c5884c-9610-4c49-bb15-e2ff92a91705/naomi-osaka-collection-french-terry-graphic-hoodie-vGD1jL.png",
+       "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/639dcd9b-be5a-4999-9776-d8341c7ea48c/naomi-osaka-collection-french-terry-graphic-hoodie-vGD1jL.png",
+       "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2137fe82-bfef-46d3-a04d-ad930c8ebcc6/naomi-osaka-collection-french-terry-graphic-hoodie-vGD1jL.png",
+       "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f5db70cd-454b-4925-8fd7-56933dc266fa/naomi-osaka-collection-french-terry-graphic-hoodie-vGD1jL.png",
+       "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4c8dafdf-7c02-438b-93a9-f726191a81bb/naomi-osaka-collection-french-terry-graphic-hoodie-vGD1jL.png"
+          ],
+            "category":"hoodie",
+            "gender":"men",
+            "size":["Small","Medium","Large"],
+            "rating":4.9,
+            "description":"Naomi Osaka Collection",
+            "price":5495,
+            "color":"white"
+            },
+
+
+    {
     "title":"Nike SB Zoom Blazer Mid Premium",
     "img":[
     "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1688dccb-f83c-4b5e-96d9-87ed2727780d/sb-zoom-blazer-mid-skate-shoes-2fTd1w.png",
@@ -84,6 +263,43 @@
     "price":13200,
     "color":"white"
     },
+
+    {
+        "title":"Nike Sportswear",
+        "img":[
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5224b6c8-c48d-40bb-a7e5-d310a1118e8d/sportswear-t-shirt-n7bNsJ.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/79caca12-2b7c-4c59-b737-a5e77251077d/sportswear-t-shirt-n7bNsJ.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/df8d5a4c-b64e-4238-a5b5-60d0be55902a/sportswear-t-shirt-n7bNsJ.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2ed8328c-503e-465d-b319-6c2371de1761/sportswear-t-shirt-n7bNsJ.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/df2f9401-84ab-4ecf-90fd-232a9d5829bb/sportswear-t-shirt-n7bNsJ.png"
+       ],
+        "category":"T-shirt",
+        "gender":"men",
+        "size":["Small","Medium","Large"],
+        "rating":4.1,
+        "description":"Men's T-Shirt",
+        "price":1795,
+        "color":"pink"
+        },
+
+
+        {
+            "title":"Liverpool F.C. Strike",
+            "img":[
+       "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/8429287b-1eb0-40d4-a1d5-a128e0d3568f/liverpool-fc-strike-dri-fit-knit-football-tracksuit-bottoms-N63t3S.png",
+       "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/02da9413-15f1-4b6e-a1cf-138915317467/liverpool-fc-strike-dri-fit-knit-football-tracksuit-bottoms-N63t3S.png",
+       "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/54b1ebb6-d5bc-4b2d-8d4d-be36fc0f7700/liverpool-fc-strike-dri-fit-knit-football-tracksuit-bottoms-N63t3S.png",
+       "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b2521088-acb6-4170-a21a-8f956a866649/liverpool-fc-strike-dri-fit-knit-football-tracksuit-bottoms-N63t3S.png",
+       "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1fca4440-46fe-4e39-9724-595e70cb1538/liverpool-fc-strike-dri-fit-knit-football-tracksuit-bottoms-N63t3S.png"
+            ],
+            "category":"trouser",
+            "gender":"men",
+            "size":["Small","Medium","Large"],
+            "rating":5,
+            "description":"Men's Nike Dri-FIT Knit Football Tracksuit Bottoms",
+            "price":3795,
+            "color":"red" 
+        },
 
     {
     "title":"Nike SB Zoom Blazer Mid Premium Plus",
@@ -118,6 +334,56 @@
         },
 
         {
+            "title":"Nike Dri-FIT Academy",
+            "img":[
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/cccb1381-295a-4d2d-904f-546062a1833f/dri-fit-academy-short-sleeve-graphic-football-top-bBN0Ht.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5d026804-2b59-4ef9-85c6-3f1029006cc7/dri-fit-academy-short-sleeve-graphic-football-top-bBN0Ht.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/8e9f5a2a-f7d4-425a-a387-4708bfc32ac8/dri-fit-academy-short-sleeve-graphic-football-top-bBN0Ht.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2f4636fd-44f8-4c27-bb22-7f966501dd65/dri-fit-academy-short-sleeve-graphic-football-top-bBN0Ht.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/111d1418-2278-4cb7-a3d7-59180dc22d04/dri-fit-academy-short-sleeve-graphic-football-top-bBN0Ht.png"
+           ],
+            "category":"T-shirt",
+            "gender":"men",
+            "size":["Small","Medium","Large"],
+            "rating":2.9,
+            "description":"Men's Short-Sleeve Graphic Football Top",
+            "price":1995,
+            "color":"white"
+            },
+
+            {
+                "title":"Nike Sportswear Air",
+                "img":[
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/8fda349b-34b6-45ed-ba2a-5be5ae04082c/sportswear-air-french-terry-trousers-mktSJT.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/31079505-0633-4f55-ba6c-1a02291a3aac/sportswear-air-french-terry-trousers-mktSJT.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/8064f5b4-ea5f-4560-91b7-089f43c5797a/sportswear-air-french-terry-trousers-mktSJT.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/25737a11-f288-4b08-822a-0903380cc6c0/sportswear-air-french-terry-trousers-mktSJT.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b0705116-0479-4686-b069-6575cc2d7ee9/sportswear-air-french-terry-trousers-mktSJT.png"
+                ],
+                "category":"trouser",
+                "gender":"men",
+                "size":["Small","Medium","Large"],
+                "rating":5,
+                "description":"Men's French Terry Trouser",
+                "price":4495,
+                "color":"white" 
+            },
+
+            {
+                "title":"Air Jordan Wordmark",
+                "img":[
+               "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/6ed0fd44-fe3d-4450-8d85-43727b89d754/air-jordan-wordmark-fleece-hoodie-hfHwCz.png"
+              ],
+                "category":"hoodie",
+                "gender":"men",
+                "size":["Small","Medium","Large"],
+                "rating":3.9,
+                "description":"Men's Fleece Hoodie",
+                "price":8995,
+                "color":"red"
+                },
+
+        {
             "title":"Air Jordan 1 Retro High OG",
             "img":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b3cb2095-b729-404b-8cdc-3383771d0036/air-jordan-1-retro-high-og-shoes-G8hcQx.png",
@@ -132,7 +398,61 @@
             "description":"Men's Road Racing Shoes",
             "price":15900,
             "color":"white"
-            }
+            },
+
+            {
+                "title":"Nike Forward Hoodie",
+                "img":[
+       "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/92abc90b-bb04-45b1-9b70-9d2502229115/forward-hoodie-hoodie-qKbJFt.png",
+"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ac4497ef-7d40-4dbc-8ea0-ade528fd946c/forward-hoodie-hoodie-qKbJFt.png",
+"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/3e9f294e-c97a-411b-afed-2a60fd23d123/forward-hoodie-hoodie-qKbJFt.png",
+"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/bfbcef67-85af-42af-8be8-a1c58ec79fc1/forward-hoodie-hoodie-qKbJFt.png",
+"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/77e2fa1c-f118-4810-9d50-6f8e55d2748f/forward-hoodie-hoodie-qKbJFt.png"
+              ],
+                "category":"hoodie",
+                "gender":"men",
+                "size":["Small","Medium","Large"],
+                "rating":4.9,
+                "description":"Men's White Hoodie",
+                "price":8995,
+                "color":"white"
+                },
+
+            {
+                "title":"Liverpool F.C. 2022/23 Match Home",
+                "img":[
+              "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/3ca1ceaf-f1a2-4c4b-9986-57cc49482f55/liverpool-fc-2022-23-match-home-dri-fit-adv-football-shirt-7SPRhx.png",
+              "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2812c6dc-d7f9-448d-b9e6-c8e39c2aaf8e/liverpool-fc-2022-23-match-home-dri-fit-adv-football-shirt-7SPRhx.png",
+              "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/128eab75-d346-4cd2-a0c1-a02f5346c8f8/liverpool-fc-2022-23-match-home-dri-fit-adv-football-shirt-7SPRhx.png",
+              "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/8bc35413-08f6-4530-8760-1dfbe0fe1eca/liverpool-fc-2022-23-match-home-dri-fit-adv-football-shirt-7SPRhx.png",
+              "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f9d4d057-3d32-4f36-b4ab-af9f2fe7130f/liverpool-fc-2022-23-match-home-dri-fit-adv-football-shirt-7SPRhx.png"
+               ],
+                "category":"T-shirt",
+                "gender":"men",
+                "size":["Small","Medium","Large"],
+                "rating":4.4,
+                "description":"Liverpool F.C. 2022/23 Match Home",
+                "price":1995,
+                "color":"red"
+                },
+
+                {
+                    "title":"Nike x sacai",
+                    "img":[
+           "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/bc7baa3c-5ef9-427c-8d4b-4db6a91e6781/sacai-trousers-0ZkpLQ.png",
+           "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/35be7974-197b-45c2-bb0b-d92b9b85fd14/sacai-trousers-0ZkpLQ.png",
+           "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/76b998d5-8f3e-45d4-969f-6ea3d8e4835d/sacai-trousers-0ZkpLQ.png",
+           "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f5dc66b5-0576-4e71-a8aa-4b46bf03b988/sacai-trousers-0ZkpLQ.png",
+           "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/18f5dbde-3c1e-47b2-9525-72d13a139206/sacai-trousers-0ZkpLQ.png"
+                    ],
+                    "category":"trouser",
+                    "gender":"men",
+                    "size":["Small","Medium","Large"],
+                    "rating":5,
+                    "description":"Men's French Terry Trouser",
+                    "price":14495,
+                    "color":"black" 
+                }
 
         ]
     }

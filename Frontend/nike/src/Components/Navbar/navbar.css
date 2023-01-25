@@ -83,7 +83,7 @@
     text-align: top;
   }
   
-  @media only screen and (max-width: 576px) {
+ @media only screen and (max-width: 576px) {
     .navbarprod,.navbarcart{
         display: none;
        }
@@ -98,4 +98,4 @@
         background-color: rgb(203, 196, 196);
         cursor: pointer;
       }
-  }
+  } 

@@ -60,3 +60,35 @@ border-radius: 20px;
     margin: auto;
     cursor: pointer;
  }
+
+ @media only screen and (max-width: 1466px) {
+     .homelast img{
+        height: 350px;
+     }
+ } 
+ @media only screen and (max-width: 1132px) {
+    .homelast img{
+       height: 300px;
+    }
+} 
+ 
+ @media only screen and (max-width: 868px) {
+    .homelast{
+   display: flex;
+   flex-direction: column;
+    }
+   .homemore div{
+    font-family: sans-serif;
+    line-height: 40px;
+    letter-spacing: -4px; 
+   }
+.homemore h1{
+    color: black;
+    font-size: 40px;
+    font-weight: 900;
+}
+   }
+   
+  @media only screen and (max-width: 576px) {
+     
+   } 

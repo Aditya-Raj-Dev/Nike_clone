@@ -8,10 +8,11 @@ import Homewomen from "../../Images/Homewomen.png"
 import Homekids from "../../Images/Homekids.png"
 import nikevid from "./nikevid.mp4"
 import { Heading } from '@chakra-ui/react'
+import { useNavigate } from 'react-router-dom'
 
 
 const Home = () => {
-
+const navigate=useNavigate()
   const videoRef = useRef(null);
   useEffect(() => {
     if (videoRef.current) {
@@ -73,9 +74,9 @@ const Home = () => {
           <button>Shop</button>
       </div>
       <div className='homelast'>
-        <img src={Homemen} alt="" />
-        <img src={Homewomen} alt="" />
-        <img src={Homekids} alt="" />
+        <img src={Homemen} alt=""  onClick={()=>navigate("/men")}/>
+        <img src={Homewomen} alt="" onClick={()=>navigate("/women")} />
+        <img src={Homekids} alt="" onClick={()=>navigate("/kids")}/>
       </div>
     </div>
   )

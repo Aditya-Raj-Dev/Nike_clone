@@ -1,0 +1,62 @@
+.home{
+    display: flex;
+    
+    gap:1rem;
+}
+
+.homebox{
+width: 95%;
+margin: auto;
+
+}
+
+.home img{
+    width:100%;
+    cursor: pointer;
+}
+
+.hometopimg{
+    margin-top: -25px;
+    cursor: pointer;
+}
+.featured{
+    text-align: left;
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+.homemore p{
+ color: black;
+
+}
+.homemore h1{
+    color: black;
+    font-size: 50px;
+    font-weight: 900;
+}
+.homemore div{
+    font-family: sans-serif;
+    line-height: 50px;
+    letter-spacing: -4px;
+    
+}
+.homemore button{
+background-color: black;
+color: white;
+width:75px;
+height: 33px;
+border-radius: 20px;
+ }
+ .homelast{
+    display: flex;
+    gap:20px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom:2rem ;
+ }
+ .homelast img{
+    height:450px;
+    margin: auto;
+    cursor: pointer;
+ }

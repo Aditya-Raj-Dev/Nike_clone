@@ -44,10 +44,21 @@
  .hamburger{
     display: none;
  }
-
+.nav1{
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.navlog p:hover{
+ cursor: pointer;
+ color: rgb(91, 91, 91);
+ text-decoration:underline;
+}
 
  @media only screen and (max-width: 868px) {
-   .navbarprod,.navbarcart{
+   .navbarprod,.navbarcart,.nav1{
     display: none;
    }
 
@@ -62,6 +73,14 @@
     cursor: pointer;
   }
   
+  }
+  .marquee{
+   
+    background-color:  rgb(234, 234, 234) ;
+    line-height: 0px;
+    height: 40px;
+    padding-top: -10px;
+    text-align: top;
   }
   
   @media only screen and (max-width: 576px) {

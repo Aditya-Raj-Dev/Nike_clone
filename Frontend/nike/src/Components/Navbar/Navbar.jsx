@@ -14,9 +14,15 @@ const Navbar = () => {
     
   return (
     <div>
-       
+       <div className='nav1'>
+         <img src="https://upload.wikimedia.org/wikipedia/en/3/37/Jumpman_logo.svg" alt="" height="30px" />
+         <div style={{display:"flex",gap:"2rem",marginTop:"-15px"}} className="navlog">
+          <p>Join Us</p>
+          <p>Sign In</p>
+         </div>
+       </div>
        <div className='navbar'>
-            <img src="https://www.freeiconspng.com/thumbs/nike-logo/logo-brand-nike-png-10.png" alt=""  height="40px"/>
+            <img src="https://www.freeiconspng.com/thumbs/nike-logo/logo-brand-nike-png-10.png" alt=""  height="40px" width="100px"/>
             {/* 1st div */}
             <div className='navbarprod' >
                 <h3>Men</h3>
@@ -26,7 +32,7 @@ const Navbar = () => {
 
               {/* 2nd div */}
             <div className='navbarcart'>
-               <Input placeholder=' Search' size='sm' className='navsearch'/>
+               <input placeholder=' Search' size='sm' className='navsearch'/>
                <BiHeart fontSize="30px" className='circle'/>
                <HiOutlineShoppingBag fontSize="29px" className='circle'/>
             </div>
@@ -36,7 +42,13 @@ const Navbar = () => {
            {/* <Drawernavbar/> */}
               </div>
        </div>
-
+       {/* marquee */}
+       <br />
+       {/* <div className='marquee'>
+       <marquee><h4>Hello Nike App</h4></marquee>
+   
+       </div> */}
+       <br />
     </div>
   )
 }

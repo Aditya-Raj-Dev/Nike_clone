@@ -1,0 +1,39 @@
+.menprodfilter{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1rem;
+    text-align: left;
+    width:80%;
+    margin: auto;
+    margin-right: 2rem;
+}
+.menprod{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1rem;
+    text-align: left;
+    width:95%;
+    margin: auto;
+    margin-right: 2rem;
+    margin-top: 10px;
+}
+.menprod img{
+    height:470px;
+    width:410px;
+    margin-top: 20px;
+}
+.menprodfilter img{
+    height:410px;
+    width:370px;
+    margin-top: 20px;
+}
+.menprodfilter p,.menprod p{
+    color: rgb(172, 171, 171);
+}
+.menboxfilter{
+    display: flex;
+}
+
+.noshowfilter{
+    display: none;
+}

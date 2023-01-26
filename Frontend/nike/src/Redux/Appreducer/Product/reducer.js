@@ -2,13 +2,45 @@ import * as types from "./action.types"
 
 const initialstate={
     prod:[],
+    maindata:[],
     isloading:false,
     isError:false,
+    showfilter:true,
+    sort:false
 }
 
 export const ProductReducer=(state=initialstate,{type,payload})=>{
-console.log(payload)
     switch(type){
+        case types.RESET_FILTERS:{
+            return {
+                ...state,prod:state.maindata,sort:!state.sort
+            }
+        }
+        case types.RATING_HIGH_TO_LOW:{
+            return {
+                ...state,prod: state.prod.sort((a, b) => b.rating - a.rating),sort:!state.sort
+            }
+        }
+        case types.PRICE_HIGH_TO_LOW:{
+            return {
+                ...state,prod: state.prod.sort((a, b) => b.price -a.price),sort:!state.sort
+            }
+        }
+        case types.PRICE_LOW_TO_HIGH:{
+            return {
+                ...state,prod: state.prod.sort((a, b) => a.price -b.price),sort:!state.sort
+            }
+        }
+        case types.RATING_HIGH_TO_LOW:{
+            return {
+                ...state,prod: state.prod.sort((a, b) => a.rating - b.rating),sort:!state.sort
+            }
+        }
+        case types.SHOW_FILTER:{
+            return {
+                ...state,showfilter: !state.showfilter
+            }
+        }
         case types.GET_DATA_LOADING:{
             return {
                 ...state,isloading:true
@@ -23,7 +55,8 @@ console.log(payload)
             return {
                 ...state,
                 isloading:false,
-                prod:payload
+                prod:payload,
+                maindata:payload
             }
         }
         default:{

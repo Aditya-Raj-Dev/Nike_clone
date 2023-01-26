@@ -37,3 +37,68 @@
 .noshowfilter{
     display: none;
 }
+
+
+@media only screen and (max-width: 1302px) {
+    .menprod img{
+        height:440px;
+        width:370px;
+        margin-top: 20px;
+    }
+    .menboxfilter{
+        display: flex;
+        flex-direction: column;
+    }
+    .menprodfilter{
+        width:100%;
+    }
+    
+} 
+@media only screen and (max-width:1098px) {
+    .menprod img{
+        height:440px;
+        width:370px;
+        margin-top: 20px;
+    }
+    .menprodfilter{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:1rem;
+        text-align: left;
+        width:95%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .menprod{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:1rem;
+        text-align: left;
+        width:85%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+}
+@media only screen and (max-width: 668px) {
+.menprodfilter img{
+    height:380px;
+        width:340px;
+        margin-top: 20px;
+}
+}
+
+
+ @media only screen and (max-width: 576px) {
+    .menprod,.menprodfilter{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        text-align: left;
+        width:80%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .menprod img{
+        margin:auto
+    }
+  } 

@@ -1,0 +1,9 @@
+.sortingbox{
+    display:flex;
+ justify-content: flex-end;
+width: 95%;
+}
+.sorting{
+    display: flex;
+    gap:1rem;
+}

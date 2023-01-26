@@ -16,33 +16,8 @@ import { AiOutlineDown } from 'react-icons/ai';
 
 const Navbar = () => {
     const [hovered, setHovered] = useState(false);
-    const filter=useSelector((state)=>state.ProductReducer.showfilter)
-    const dispatch=useDispatch()
-    const toast=useToast()
+  
 
-    const handleChange = ({ target: { textContent } }) => {
-      toast({
-        title: 'Success',
-        description: `${textContent} applied successfully`,
-        status: 'success',
-        duration: 1000,
-        position:"top",
-        isClosable: true,
-      })
-
-      switch (textContent) {
-          case "Price: Low-High":
-              return dispatch(PriceLowToHigh());
-          case "Price: High-Low":
-              return dispatch(PriceHighToLow());
-          case "Rating: Low-High":
-              return dispatch(ratingLowToHigh());
-          case "Rating: High-Low":
-              return dispatch(ratingHighToLow());
-          default:
-              console.log("default");
-      }
-  }
   return (
     <div>
 
@@ -82,46 +57,7 @@ const Navbar = () => {
        </div> */}
        <br />
        {/* filter Buttons */}
-       <div style={{display:"flex",justifyContent:"space-between",marginRight:"6rem"}}>
-        <div></div>
-        <div style={{display:"flex",gap:"20px"}}>
-          <div>
-              <Button
-              rightIcon={<FcFilledFilter/>}
-                 onClick={()=>{dispatch(ShowFilter())}}
-                 >{filter?"Hide":"Show"} Filter </Button>
-          </div>
-          <Button
-          onClick={()=>{dispatch(resetFilters())
-            toast({
-              title: 'Success',
-              description: `Filter Reset successfully`,
-              status: 'success',
-              duration: 1000,
-              position:"top",
-              isClosable: true,
-            })
-          }}
-          >Reset Filters</Button>
-       <div>
-       <Box>
-            <Menu>
-                <MenuButton fontSize={['13px', '16px']} rightIcon={<AiOutlineDown />} as={Button}>Sort By</MenuButton>
-                <MenuList onClick={()=>{
-                  console.log("textContent")
-                }}>
-                    <MenuItem onClick={handleChange}>Price: Low-High</MenuItem>
-                    <MenuItem onClick={handleChange}>Price: High-Low</MenuItem>
-                    <MenuItem onClick={handleChange}>Rating: Low-High</MenuItem>
-                    <MenuItem onClick={handleChange}>Rating: High-Low</MenuItem>
-                </MenuList>
-            </Menu>
-        </Box>
-       </div>
-        
-        </div>
-       
-       </div>
+      
        
     </div>
   )

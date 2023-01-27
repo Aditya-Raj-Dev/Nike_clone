@@ -1,11 +1,43 @@
 const Postone = (model) => async (req, res) => {
+    
   try {
+
     const data = await model.create(req.body);
     res.status(201).send({ msg: "successfull", data: data });
   } catch (e) {
-    res.status(500).send({ msg: "failed" });
+    res.status(500).send({ msg: "failed","err":e });
   }
 };
+
+const Addtocart= (model) => async (req, res) => {
+  try {
+       const id=req.body._id
+       let prod= await model.find({_id:id})
+       if(prod.length>0){
+        console.log(prod.length)
+        res.send({"msg":"Product Already Present in the cart","toast":"i"})
+       }
+       else{
+         const data = await model.create(req.body);
+         res.status(201).send({ msg: "Product Added successfully","toast":"s" });
+       }
+  } catch (e) {
+    res.status(500).send({ msg: "failed","toast":"e" });
+  }
+};
+
+const Getparams =(model)=> async (req,res)=>{
+   const _id=req.params.id
+   console.log(_id)
+  try{
+    const data =await model.find({_id:_id});
+   
+    res.status(201).send({ msg: "successfull", data: data });
+  } catch (e) {
+    res.status(500).send({ msg: e });
+  }
+  
+} 
 
 const PostMany = (model) => async (req, res) => {
   try {
@@ -18,8 +50,17 @@ const PostMany = (model) => async (req, res) => {
 
 const GetAll = (model) => async (req, res) => {
   try {
-    const data = await model.find().lean().exec();
+    if(req.query){
+     
+      const data=await model.find(req.query)
+      res.status(200).send({"msg":"successfull", data: data })
+    }
+
+    else{
+       const data = await model.find()
     res.status(201).send({ msg: "successfull", data: data });
+    }
+    
   } catch (e) {
     res.status(500).send({ msg: "failed" });
   }
@@ -34,6 +75,10 @@ const DeleteItem = (model) => async (req, res) => {
     res.status(500).send({ msg: "failed" });
   }
 };
+
+const Changequantity=(model)=> async (req,res)=>{
+
+}
 
 const PostFavourite = (model) => async (req, res) => {
   try {
@@ -54,4 +99,4 @@ const getFavourites = (model) => async (req, res) => {
   }
 };
 
-module.exports = { PostMany, Postone, GetAll, DeleteItem,getFavourites,PostFavourite };
+module.exports = { PostMany, Postone,Getparams, GetAll, DeleteItem,getFavourites,PostFavourite,Addtocart };

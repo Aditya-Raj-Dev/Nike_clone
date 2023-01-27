@@ -5,17 +5,71 @@ import { Heading } from '@chakra-ui/react'
 import { useState } from 'react'
 import { FaShoppingBag } from 'react-icons/fa';
 import { BsHeart } from 'react-icons/bs';
+import axios from 'axios'
+import { useToast } from '@chakra-ui/react'
 
 const ProductDetails = ({product}) => {
   const [size,setSize]=useState('')
   const [sizeselected,setSizeselected]=useState(false)
+  const toast=useToast()
       
   function handlesize(e){
     setSize(e.target.textContent)
      setSizeselected(!sizeselected)
   }
   function handlereset(){
+    setSize("")
     setSizeselected(!sizeselected)
+  }
+
+  function handldeaddtobag(prod){
+    if(size===""){
+      toast({
+        title: `Please Select Size`,
+        status: "warning",
+        duration:2000,
+        varient:"top-accent",
+        position:"'top-right'",
+        isClosable: true,
+      })
+      return
+    }
+    console.log(prod)
+    prod[0].size=size
+    prod[0].quantity=1
+    axios({
+      method:"POST",
+      url:"http://localhost:8080/bag",
+      data:prod[0]
+    }).then((r)=>{
+    if(r.data.toast==="s"){
+      toast({
+        title: `${r.data.msg}`,
+        status: "success",
+        duration:2000,
+        position:"'top-right'",
+        isClosable: true,
+      })
+    }
+    else{
+      toast({
+        title: `${r.data.msg}`,
+        status: "info",
+        duration:2000,
+        position:"'top-right'",
+        isClosable: true,
+      })
+    }
+    })
+    .catch((e)=>{
+      toast({
+        title: `Something Went Wrong`,
+        status: "error",
+        duration:2000,
+        position:"'top-right'",
+        isClosable: true,
+      })
+    })
   }
 
   return (
@@ -121,6 +175,7 @@ const ProductDetails = ({product}) => {
                          bg="black"
                          color="white"
                   marginTop="15px"
+                  onClick={()=>handldeaddtobag(product)}
                   rightIcon={<FaShoppingBag/>}>
                     Add To Bag
                    </Button>

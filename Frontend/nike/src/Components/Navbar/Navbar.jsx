@@ -18,7 +18,7 @@ const Navbar = () => {
     const [hovered, setHovered] = useState(false);
     const [searchedtext,setSearchedtext]=useState("")
     const prod=useSelector((state)=>state.ProductReducer.prod)
-   
+   const navigate=useNavigate()
   
     function handlesearch(e){
       setSearchedtext(e.target.value)
@@ -31,17 +31,18 @@ const Navbar = () => {
        <div className='nav1'>
          <img src="https://upload.wikimedia.org/wikipedia/en/3/37/Jumpman_logo.svg" alt="" height="30px" />
          <div style={{display:"flex",gap:"2rem",marginTop:"-0px"}} className="navlog">
-          <p>Join Us</p>
-          <p>Sign In</p>
+          <p onClick={()=>navigate("/signup")}>Join Us</p>
+          <p onClick={()=>navigate("/login")}>Sign In</p>
          </div>
        </div>
        <div className='navbar'>
-            <img src="https://www.freeiconspng.com/thumbs/nike-logo/logo-brand-nike-png-10.png" alt=""  height="40px" width="100px"/>
+            <img src="https://www.freeiconspng.com/thumbs/nike-logo/logo-brand-nike-png-10.png" alt=""  height="40px" width="100px"
+            onClick={()=>navigate("/")}/>
             {/* 1st div */}
             <div className='navbarprod' >
-                <h3>Men</h3>
-                <h3>Women</h3>
-                <h3>Kids</h3>
+                <h3 onClick={()=>navigate("/men")}>Men</h3>
+                <h3  onClick={()=>navigate("/women")}>Women</h3>
+                <h3 onClick={()=>navigate("/kids")}>Kids</h3>
             </div>
 
               {/* 2nd div */}
@@ -50,7 +51,7 @@ const Navbar = () => {
                 onChange={handlesearch}
                />
                <BiHeart fontSize="30px" className='circle'/>
-               <HiOutlineShoppingBag fontSize="29px" className='circle'/>
+               <HiOutlineShoppingBag fontSize="29px" className='circle' onClick={()=>navigate("/cart")}/>
             </div>
               <div className='hamburger'>
                 <GiHamburgerMenu/>

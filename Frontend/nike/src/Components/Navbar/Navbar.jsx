@@ -16,7 +16,14 @@ import { AiOutlineDown } from 'react-icons/ai';
 
 const Navbar = () => {
     const [hovered, setHovered] = useState(false);
+    const [searchedtext,setSearchedtext]=useState("")
+    const prod=useSelector((state)=>state.ProductReducer.prod)
+   
   
+    function handlesearch(e){
+      setSearchedtext(e.target.value)
+    }
+ 
 
   return (
     <div>
@@ -39,7 +46,9 @@ const Navbar = () => {
 
               {/* 2nd div */}
             <div className='navbarcart'>
-               <input placeholder=' Search' size='sm' className='navsearch'/>
+               <input placeholder=' Search' size='sm' className='navsearch'
+                onChange={handlesearch}
+               />
                <BiHeart fontSize="30px" className='circle'/>
                <HiOutlineShoppingBag fontSize="29px" className='circle'/>
             </div>

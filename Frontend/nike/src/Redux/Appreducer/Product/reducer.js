@@ -3,6 +3,7 @@ import * as types from "./action.types"
 const initialstate={
     prod:[],
     maindata:[],
+    singleprod:[],
     isloading:false,
     isError:false,
     showfilter:true,
@@ -11,6 +12,12 @@ const initialstate={
 
 export const ProductReducer=(state=initialstate,{type,payload})=>{
     switch(type){
+
+        case types.SHOW_SINGLE_PRODUCT:{
+            return {
+                ...state,singleprod:payload
+            }
+        }
         case types.RESET_FILTERS:{
             return {
                 ...state,prod:state.maindata,sort:!state.sort

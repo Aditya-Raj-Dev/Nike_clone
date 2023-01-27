@@ -1,26 +1,36 @@
+import { color } from "@chakra-ui/react";
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { Navigate, useLocation, useNavigate, useSearchParams } from "react-router-dom";
 import Filter from "../../Components/Filter/Filter";
 import Sorting from "../../Components/Sorting/Sorting";
 import { getData, ShowFilter } from "../../Redux/Appreducer/Product/action";
 import "./men.css";
 const Men = () => {
   const dispatch = useDispatch();
+  const [searchparam]=useSearchParams()
   const filter = useSelector((state) => state.ProductReducer.showfilter);
   const prod = useSelector((state) => state.ProductReducer.prod);
   const sort = useSelector((state) => state.ProductReducer.sort);
   const [data, setData] = useState([]);
+  const location=useLocation()
+const navigate=useNavigate()
 
   useEffect(() => {
-    dispatch(getData("http://localhost:8080/mens"));
-
+    const prodparam={
+      params:{
+        category:searchparam.getAll("category"),
+        color:searchparam.getAll("color")
+      }
+    }
+    dispatch(getData("http://localhost:8080/mens",prodparam));
     if (prod.length > 0) {
       setData(prod);
     }
-  }, [prod.length, sort]);
-  console.log(prod);
+  }, [prod.length, sort,location.search]);
+  
   return (
     <div>
       <div>
@@ -28,13 +38,15 @@ const Men = () => {
       </div>
       <div className={filter ? "menboxfilter" : "menbox"}>
         <div className={filter ? "showfilter" : "noshowfilter"}>
-          <Filter />
+          <Filter category={prod.map((item)=>item.category)} color={prod.map((item)=>item.color)} />
         </div>
 
         <div className={filter ? "menprodfilter" : "menprod"}>
           {data &&
             data.map((item) => (
-              <div key={item._id}>
+              <div style={{cursor:"pointer"}} key={item._id} onClick={()=>{
+                console.log(item._id)
+                navigate(`/men/${item._id}`)}}>
                 <img src={item.img[0]} alt="" />
                 <h5>{item.title}</h5>
                 <p>{item.description}</p>

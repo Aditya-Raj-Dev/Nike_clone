@@ -88,7 +88,7 @@ const Sorting = () => {
             });
           }}
         >
-          Reset Filters
+          Reset Price Filters
         </Button>
         <div>
           <Box>

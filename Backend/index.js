@@ -6,6 +6,8 @@ const { MensRoute } = require("./Route/Mens/Mens.route")
 const { LoginRoute } = require("./Route/Signup/Login.route")
 const { SignupRoute } = require("./Route/Signup/signup.route")
 const { BagRoute } = require("./Route/Bag/Bag.route")
+const { WomenRoute } = require("./Route/Women/Women.route")
+const { KidsRoute } = require("./Route/Kids/Kids.route")
 
 const app=express()
 app.use(cors());
@@ -15,6 +17,8 @@ app.use("/signup",SignupRoute)
 app.use("/login",LoginRoute)
 app.use("/mens",MensRoute)
 app.use("/bag",BagRoute)
+app.use("/women",WomenRoute)
+app.use("/kids",KidsRoute)
 
 app.get("/",(req,res)=>{
     res.send("Welcome to my world")

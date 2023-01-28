@@ -18,5 +18,7 @@ const MensSchema= mongoose.Schema({
 {versionKey:false},)
 
 const Mensmodel= mongoose.model("Men",MensSchema)
+const Womenmodel=mongoose.model("women",MensSchema)
+const Kidsmodel=mongoose.model("kids",MensSchema)
 
-module.exports={Mensmodel}
+module.exports={Mensmodel,Womenmodel,Kidsmodel}

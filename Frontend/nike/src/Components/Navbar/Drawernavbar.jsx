@@ -1,48 +1,81 @@
-import React from "react";
-import {
-  Drawer,
-  DrawerBody,
-  DrawerFooter,
-  DrawerHeader,
-  DrawerOverlay,
-  DrawerContent,
-  DrawerCloseButton,
-  useDisclosure,
-  Button,
-  Input,
-  Box,
-} from "@chakra-ui/react";
-import { GiHamburgerMenu } from "react-icons/gi";
+import { Divider, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerHeader, DrawerOverlay, Icon, useDisclosure, VStack } from "@chakra-ui/react";
+import { useDispatch, useSelector } from "react-redux";
+import { BiMenu } from "react-icons/bi";
+import { Link,} from "react-router-dom";
+import { Heading } from '@chakra-ui/react'
+import { GetLogoutSuccess } from "../../Redux/Authreducer/action";
+import { useToast } from '@chakra-ui/react'
+export  const Drawernavbar = () => {
+  const toast = useToast()
+  const dispatch=useDispatch()
+    const { isOpen, onOpen, onClose } = useDisclosure();
+    const user = useSelector((state) => state.authReducer); 
 
-const Drawernavbar = () => {
-  const { isOpen, onOpen, onClose } = useDisclosure();
-  const btnRef = React.useRef();
+    return (
+        <>
+            <Icon w={'28px'} h={'28px'} mr={'-10px'} onClick={onOpen} as={BiMenu} />
+            <Drawer
+                isOpen={isOpen}
+                placement='right'
+                onClose={onClose}
+            >
+                <DrawerOverlay />
+                <DrawerContent>
+                    <DrawerCloseButton />
+                    {user.isAuth?<DrawerHeader>Welcome {user.user}   <p onClick={()=>{
+                      dispatch(GetLogoutSuccess(toast))
+                       }}  
+                    >Logout</p></DrawerHeader> :
+                    <DrawerHeader>
+                      <Link to="/login" onClick={onClose} >Login</Link> / 
+                      <Link to="/signup" onClick={onClose}>Signup</Link> 
+                      </DrawerHeader>}
+                    <Divider />
+                    <DrawerBody>
+                    <img src="https://www.freeiconspng.com/thumbs/nike-logo/logo-brand-nike-png-10.png" 
+                    style={{marginBottom:"10px"}}
+                    alt="Nike" height="60px" width="60px"/>
+                        <VStack  mt={'40px'} alignItems="left" spacing="10px" onClick={onClose}>
+                           <Link to="/">
+                           <Heading as='h3' size='lg' display="inline-flex" gap="5rem">
+                            HOME 
+                          </Heading>
+                            </Link>
+                         
+                            <Link to="/men">
+                           <Heading as='h3' size='lg' display="flex" gap="5rem">
+                            MEN
+                          </Heading>
+                            </Link>
+                         
+                            <Link to="/women">
+                           <Heading as='h3' size='lg' display="flex" gap="5rem">
+                            WOMEN
+                          </Heading>
+                            </Link>
+                         
+                            <Link to="/kids">
+                           <Heading as='h3' size='lg' display="flex" gap="5rem">
+                            KIDS
+                          </Heading>
+                            </Link>
 
-  return (
-    <>
-   
+                            <Link to="/favourite">
+                           <Heading as='h3' size='lg' display="flex" gap="5rem">
+                            FAVOURITE
+                          </Heading>
+                            </Link>
 
-      <GiHamburgerMenu onClick={onOpen} />
-      <Drawer onClose={onClose} isOpen={isOpen} size={"xs"}>
-        <DrawerOverlay />
-        <DrawerContent>
-          <DrawerCloseButton />
-          <DrawerHeader>{`{size}$ drawer contents`}</DrawerHeader>
-          <DrawerBody>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Consequat nisl vel pretium lectus quam id. Semper quis lectus
-              nulla at volutpat diam ut venenatis. Dolor morbi non arcu risus
-              quis varius quam quisque. Massa ultricies mi quis hendrerit dolor
-              magna eget est lorem. Erat imperdiet sed euismod nisi porta.
-              Lectus vestibulum mattis ullamcorper velit.
-            </p>
-          </DrawerBody>
-        </DrawerContent>
-      </Drawer>
-    </>
-  );
+                            <Link to="/cart">
+                           <Heading as='h3' size='lg' display="flex" gap="5rem">
+                            CART
+                          </Heading>
+                            </Link>
+                           
+                        </VStack>
+                    </DrawerBody>
+                </DrawerContent>
+            </Drawer>
+        </>
+    );
 };
-
-export default Drawernavbar;

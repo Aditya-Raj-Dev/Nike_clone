@@ -6,9 +6,10 @@ const initialstate={
     isAuth: extractfromLocatstorage("token")?true: false,
     signup: extractfromLocatstorage("token")?true:false,
     token: extractfromLocatstorage("token") || "",
-    user: {},
+    user: extractfromLocatstorage("name") || "",
     toast:"",
-    msg:""
+    msg:"",
+    login:false
 }
 export const authReducer=(oldstate=initialstate,{type,payload})=>{
     switch(type){
@@ -29,7 +30,8 @@ export const authReducer=(oldstate=initialstate,{type,payload})=>{
          }
          case types.LOGIN_SUCCESS:{
             return {
-                ...oldstate,isAuth:true,msg:payload.msg,toast:payload.toast,token:payload.token,signup:true
+                ...oldstate,login:true,user:payload.user,
+                isAuth:true,msg:payload.msg,toast:payload.toast,token:payload.token,signup:true
             }
          }
          case types.LOGIN_FAILED:{

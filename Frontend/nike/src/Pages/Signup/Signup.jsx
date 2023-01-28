@@ -60,28 +60,9 @@ async function handlesignupsubmit(){
         isClosable:true
       })
      }
-   await dispatch(GetSignupsuccess(signupdata))
+  dispatch(GetSignupsuccess(signupdata,toast,navigate))
 
   }
-
- 
-  useEffect(()=>{
-    console.log(sig)
-        if(sig.signup){
-          toast(
-            {
-              title:`${sig.msg}`,
-              description: sig.toast==="s"?"We've created your account.":"You Can Login Now",
-              status: sig.toast==="s"?"success":"info",
-              duration: 2000,
-              position:"top",
-              isClosable: true,
-            }
-          )
-          
-        }
-
-  },[sig.signup])
 
   return (
     <Box

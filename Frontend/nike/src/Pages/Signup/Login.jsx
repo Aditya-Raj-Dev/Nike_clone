@@ -9,7 +9,7 @@ import { useToast } from '@chakra-ui/react'
 
 const Login = () => {
   const toast = useToast()
-  const {pathname}=useLocation()
+  const location=useLocation()
   const navigate=useNavigate()
 const dispatch=useDispatch()
 const logincred=useSelector((state)=>state.authReducer)
@@ -29,33 +29,13 @@ console.log(logincred)
     })
   }
 
-  function handleloginsubmit(){
-    dispatch(GetLoginsuccess(logindata))
-   if(pathname==="/login"){
-    navigate("/")
-   }
-   else{
-    navigate(pathname)
-   }
-    // navigate("/")
+ function handleloginsubmit(){
+  console.log(location)
+ let nav=location.state===null?"/": location.state.from 
+ dispatch(GetLoginsuccess(logindata,toast,nav,navigate))
+ 
   }
-
-  useEffect(()=>{
-      if(logincred.isAuth){
-        toast(
-          {
-            title:`${logincred.msg}`,
-            description: logincred.toast==="s"?"you can shop now.":"You Can Login Now",
-            status: logincred.toast==="s"?"success":"info",
-            duration: 2000,
-            position:"top",
-            isClosable: true,
-          }
-        )
-        // navigate("/")
-      }
-  },[logincred.isAuth])
-   
+  
   return (
     <Box
     width={["80%","90%"]}

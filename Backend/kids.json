@@ -1,0 +1,202 @@
+{
+        "kids":[
+ {
+"title": "Nike Revolution 6",
+ "img": [
+ "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/18290795-b67b-43a2-8979-71c609c9c99d/revolution-6-shoes-517kFQ.png",
+ "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4bd14324-b0c9-4eb6-be5f-9e586008f2ee/revolution-6-shoes-517kFQ.png",
+ "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7bcd940c-7f23-4bcb-9afc-384f9360e45f/revolution-6-shoes-517kFQ.png",
+ "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e741be23-a48f-40f8-a040-395bae0ce69d/revolution-6-shoes-517kFQ.png",
+ "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/03888fcc-8dd3-42cf-ab5b-8bb0403cb140/revolution-6-shoes-517kFQ.png"
+   ],
+ "category": "shoes",
+  "gender": "kids",
+"size": ["Small", "Medium", "Large"],
+"rating": 4.5,
+  "description": "Baby/Toddler Shoes",
+ "price": 2999,
+  "color": "red"
+    },
+
+    {
+        "title": "Nike Sportswear",
+         "img": [
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ac530542-4800-4cdc-be37-1e28bb2f760a/sportswear-older-t-shirt-FHM08D.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/58d97cdd-1b4b-4474-8cb5-5cea596271e2/sportswear-older-t-shirt-FHM08D.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/168fc9ea-1353-4152-91a8-859ab19b40d5/sportswear-older-t-shirt-FHM08D.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/17113f8c-96e7-4834-8509-5dfc85658ab7/sportswear-older-t-shirt-FHM08D.png"
+         ],
+         "category": "T-shirt",
+          "gender": "kids",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 5,
+          "description": "Baby/Toddler T-shirt",
+         "price": 1195,
+          "color": "white"
+            },
+
+            
+    {
+        "title": "Nike Sportswear",
+         "img": [
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/422037e7-ab6d-4da4-9143-9898b0071c59/culture-of-basketball-older-hoodie-KKCWcR.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/efaa73a5-91cf-4314-ba03-8a7475c3a4d4/culture-of-basketball-older-hoodie-KKCWcR.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/15ed02c1-8d1e-4e12-8f0d-6ab44dcc279d/culture-of-basketball-older-hoodie-KKCWcR.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ccfd1aaf-71b8-4e08-89d8-4be7686f6839/culture-of-basketball-older-hoodie-KKCWcR.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/ed5e9eee-c5fc-4a07-b38c-3edecc5d477d/culture-of-basketball-older-hoodie-KKCWcR.png"
+         ],
+         "category": "hoodie",
+          "gender": "kids",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 5,
+          "description": "Baby/Toddler T-shirt",
+         "price": 1195,
+          "color": "red"
+            },
+    
+    {
+        "title": "Nike Court Borough Low 2",
+         "img": [
+       "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a2f06e83-fe42-4bfc-9de2-fab60a95c7a4/court-borough-low-2-shoes-HL7d8l.png",
+       "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/dba04e5b-e8d1-4f17-aed1-155cb0a07ffe/court-borough-low-2-shoes-HL7d8l.png",
+       "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/934fc450-e485-47ac-b87d-d3fa21e5852e/court-borough-low-2-shoes-HL7d8l.png",
+       "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/7f26ec44-421e-490b-ab27-a087192fbe93/court-borough-low-2-shoes-HL7d8l.png",
+       "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/1d614d04-f725-41de-b805-9b6bbe41a982/court-borough-low-2-shoes-HL7d8l.png"
+           ],
+         "category": "shoes",
+          "gender": "kids",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 4.9,
+          "description": "Baby/Toddler Shoes",
+         "price": 2495,
+          "color": "blue"
+            },
+
+            {
+                "title": "Nike Dri-FIT",
+                 "img": [
+               "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/6cb8dec5-15e2-4a7a-8f59-a2522dd40ec2/dri-fit-older-training-t-shirt-cr2ksb.png",
+               "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/be578c48-d3a9-4693-97ba-22011e10202d/dri-fit-older-training-t-shirt-cr2ksb.png",
+               "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/bbc33474-12f1-4aa5-aca9-d7bcece8cea5/dri-fit-older-training-t-shirt-cr2ksb.png",
+               "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a65f08aa-d2e9-4b38-ba64-875f5008051e/dri-fit-older-training-t-shirt-cr2ksb.png"
+                   ],
+                 "category": "T-shirt",
+                  "gender": "kids",
+                "size": ["Small", "Medium", "Large"],
+                "rating": 4.8,
+                  "description": "Older Kids' (Girls') Training T-Shirt",
+                 "price": 1195,
+                  "color": "blue"
+                    },
+
+    {
+        "title": "Nike Omni Multi-Court",
+         "img": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0612e4c5-3cc1-4468-a350-8aac8bdbe3b8/omni-multi-court-shoes-3C4J6j.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5741f4f4-ad19-44a7-ab10-d1bebdcef0ca/omni-multi-court-shoes-3C4J6j.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/c6bfb9b6-178e-4d1c-bea9-bbff96703b5d/omni-multi-court-shoes-3C4J6j.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/0e08e588-13af-482b-9b83-6514a4eb8bcd/omni-multi-court-shoes-3C4J6j.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/bd8f05fb-6ce2-4a13-b194-da065067a2f1/omni-multi-court-shoes-3C4J6j.png"
+           ],
+         "category": "shoes",
+          "gender": "kids",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 4.5,
+          "description": "Baby/Toddler Shoes",
+         "price": 3495,
+          "color": "black"
+            },
+            
+    {
+        "title": "Nike Sportswear",
+         "img": [
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ac530542-4800-4cdc-be37-1e28bb2f760a/sportswear-older-t-shirt-FHM08D.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/58d97cdd-1b4b-4474-8cb5-5cea596271e2/sportswear-older-t-shirt-FHM08D.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/168fc9ea-1353-4152-91a8-859ab19b40d5/sportswear-older-t-shirt-FHM08D.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/17113f8c-96e7-4834-8509-5dfc85658ab7/sportswear-older-t-shirt-FHM08D.png"
+         ],
+         "category": "T-shirt",
+          "gender": "kids",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 5,
+          "description": "Baby/Toddler T-shirt",
+         "price": 1195,
+          "color": "white"
+            },
+
+            {
+                "title": "Nike Dri-FIT",
+                 "img": [
+               "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/6cb8dec5-15e2-4a7a-8f59-a2522dd40ec2/dri-fit-older-training-t-shirt-cr2ksb.png",
+               "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/be578c48-d3a9-4693-97ba-22011e10202d/dri-fit-older-training-t-shirt-cr2ksb.png",
+               "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/bbc33474-12f1-4aa5-aca9-d7bcece8cea5/dri-fit-older-training-t-shirt-cr2ksb.png",
+               "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a65f08aa-d2e9-4b38-ba64-875f5008051e/dri-fit-older-training-t-shirt-cr2ksb.png"
+                   ],
+                 "category": "T-shirt",
+                  "gender": "kids",
+                "size": ["Small", "Medium", "Large"],
+                "rating": 4.8,
+                  "description": "Older Kids' (Girls') Training T-Shirt",
+                 "price": 1195,
+                  "color": "blue"
+                    },
+
+
+
+    {
+        "title": "Nike Revolution 5",
+         "img": [
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7218b58d-f2de-4d5a-b906-5450c75963fc/revolution-6-shoes-517kFQ.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/16c789f6-a723-4063-a467-802d14d72028/revolution-6-shoes-517kFQ.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/30dff45a-8be3-4bba-a3eb-4bc85b5a8a00/revolution-6-shoes-517kFQ.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/6d2a4e26-d852-4bbe-aeea-b5049a508618/revolution-6-shoes-517kFQ.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/e1132801-eb75-4c2c-9322-d130f6be897e/revolution-6-shoes-517kFQ.png"
+
+           ],
+         "category": "shoes",
+          "gender": "kids",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 4.6,
+          "description": "Baby/Toddler Shoes",
+         "price": 2939,
+          "color":"white"
+            },
+
+            {
+                "title": "Nike Omni Multi-Court",
+                 "img": [
+                  "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/dc8d4489-3f5f-441d-bbc2-3da610b55b7c/omni-multi-court-shoes-3C4J6j.png",
+                  "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/ee0fe7a5-ea59-4e94-9f8c-64cc3a69a4bd/omni-multi-court-shoes-3C4J6j.png",
+                  "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/e8cd1b6f-20f3-4b22-bdbb-066f64fd5d23/omni-multi-court-shoes-3C4J6j.png",
+                  "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/d09c48fa-ac15-4b0a-90a4-9ee1f40bcc0a/omni-multi-court-shoes-3C4J6j.png",
+                  "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/66f47fe3-6766-4597-964b-04c4dd7e3b65/omni-multi-court-shoes-3C4J6j.png"
+        
+                   ],
+                 "category": "shoes",
+                  "gender": "kids",
+                "size": ["Small", "Medium", "Large"],
+                "rating": 4.1,
+                  "description": "Baby/Toddler Shoes",
+                 "price": 3495,
+                  "color":"pink"
+                    },
+                    {
+                        "title": "Jordan 1 Retro High OG",
+                         "img": [
+                         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/8abe9707-0b6c-4a73-8a74-530eaed1fa8d/jordan-1-retro-high-og-shoes-P8C56q.png",
+                         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/478e38af-9767-4f73-8e45-a53aa2b63b4d/jordan-1-retro-high-og-shoes-P8C56q.png",
+                         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/34be8698-9c7c-42e5-972f-9c1ec81911b7/jordan-1-retro-high-og-shoes-P8C56q.png",
+                         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/fbc235cb-a824-478e-986b-55fe53c1cfae/jordan-1-retro-high-og-shoes-P8C56q.png",
+                         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/7278b5c4-5217-4142-b115-fa84ab12092e/jordan-1-retro-high-og-shoes-P8C56q.png"
+                
+                           ],
+                         "category": "shoes",
+                          "gender": "kids",
+                        "size": ["Small", "Medium", "Large"],
+                        "rating": 3.1,
+                          "description": "Baby/Toddler Shoes",
+                         "price": 5495,
+                          "color":"blue"
+                            }
+        ]
+}

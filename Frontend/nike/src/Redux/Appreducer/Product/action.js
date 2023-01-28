@@ -49,7 +49,6 @@ export const getData=(url,param)=>async (dispatch)=>{
          dispatch(getDataLoading())
         return  axios.get(url,param)
         .then((r)=>{
-           console.log("data",r.data)
             dispatch(getDataSuccess(r.data.data))
         })
         .catch((e)=>{

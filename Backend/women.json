@@ -1,0 +1,793 @@
+{
+  "women": [
+    {
+      "title": "Nike Zoom SuperRep 4 Next Nature",
+      "img": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/d40ff8b2-b2e3-4f3e-90ee-c2d210b2cbca/zoom-superrep-4-next-nature-hiit-class-shoes-vL8WXL.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/c0f93ff0-554d-4048-bc9f-56b38bfd834f/zoom-superrep-4-next-nature-hiit-class-shoes-vL8WXL.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/bb59f5b5-6e7c-4ba2-9d21-ffb4c99176b7/zoom-superrep-4-next-nature-hiit-class-shoes-vL8WXL.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/6c1c722d-c9b7-45fd-a6c3-ade6f1942b58/zoom-superrep-4-next-nature-hiit-class-shoes-vL8WXL.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/a52cea5a-8a48-4209-a137-786d66d29681/zoom-superrep-4-next-nature-hiit-class-shoes-vL8WXL.png"
+      ],
+      "category": "shoes",
+      "gender": "women",
+      "size": ["Small", "Medium", "Large"],
+      "rating": 3.5,
+      "description": "Women's HIIT Class Shoes",
+      "price": 11895,
+      "color": "pink"
+    },
+
+    {
+      "title": "Nike Sportswear Sport Shine",
+      "img": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/491357f5-b5ee-4800-8c05-3f29f790dce6/sportswear-sport-shine-mid-rise-bike-shorts-T7fbMG.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/57310c33-305e-4828-977d-608eaabe8e2e/sportswear-sport-shine-mid-rise-bike-shorts-T7fbMG.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a176c5e5-7228-453e-bda8-52eea5acaaa4/sportswear-sport-shine-mid-rise-bike-shorts-T7fbMG.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/8239c88a-c64d-4b98-b4da-ac493e8b76f4/sportswear-sport-shine-mid-rise-bike-shorts-T7fbMG.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b47bda2d-e61c-4b6c-8a95-bfbc0c129059/sportswear-sport-shine-mid-rise-bike-shorts-T7fbMG.png"
+      ],
+      "category": "shorts",
+      "gender": "women",
+      "size": ["Small", "Medium", "Large"],
+      "rating": 3.6,
+      "description": "Women's Mid-Rise Bike Shorts",
+      "price": 2195,
+      "color": "black"
+    },
+
+    {
+      "title": "Nike Sportswear Dri-FIT",
+      "img": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5939afc7-6e67-45fa-8239-99b2f5b2db13/sportswear-dri-fit-oversized-t-shirt-L3m9QK.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2aac5297-47cf-4d87-8389-af50a90dfdbb/sportswear-dri-fit-oversized-t-shirt-L3m9QK.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/50b69ae0-7349-493a-92bd-98b826fa869c/sportswear-dri-fit-oversized-t-shirt-L3m9QK.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/406ee580-35d1-4964-a3fe-cedfeea4ff26/sportswear-dri-fit-oversized-t-shirt-L3m9QK.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2ff44bb9-0d8e-4368-ab9d-5c4a0abece44/sportswear-dri-fit-oversized-t-shirt-L3m9QK.png"
+      ],
+      "category": "T-shirt",
+      "gender": "women",
+      "size": ["Small", "Medium", "Large"],
+      "rating": 4.6,
+      "description": "Women's Oversized T-Shirt",
+      "price": 2595,
+      "color": "white"
+    },
+
+    {
+      "title": "Nike Vaporfly 2",
+      "img": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e76351ca-b409-4f93-9d67-6a16e993557e/vaporfly-2-road-racing-shoes-KTXfRx.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/9a3cf787-69ce-4447-b0e5-f90789d9f1cf/vaporfly-2-road-racing-shoes-KTXfRx.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/20a15857-b425-4928-826c-6b7cb526fc35/vaporfly-2-road-racing-shoes-KTXfRx.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/36a6edf8-6622-4b46-b9f4-5e4ca848df9d/vaporfly-2-road-racing-shoes-KTXfRx.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/1e745808-4159-40e9-85fb-b1ed31ef7d21/vaporfly-2-road-racing-shoes-KTXfRx.png"
+      ],
+      "category": "shoes",
+      "gender": "women",
+      "size": ["Small", "Medium", "Large"],
+      "rating": 3.9,
+      "description": "Women's Road Racing Shoes",
+      "price": 20495,
+      "color": "blue"
+    },
+
+    {
+      "title": "Nike Air Force 1 '07 LX",
+      "img": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/78661b90-3c1b-499a-bebc-499aeecea01a/air-force-1-07-lx-shoe-Jpw4wf.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/c0820b54-1d20-4f33-a86e-1641eee91c2f/air-force-1-07-lx-shoe-Jpw4wf.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/23a559c6-a8c1-4817-8106-1a54b5d9d74f/air-force-1-07-lx-shoe-Jpw4wf.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f8758f0e-4b91-43f7-819e-d47270cb3834/air-force-1-07-lx-shoe-Jpw4wf.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1abc96f2-b8e9-4f42-8a8f-f0ccbd4c2a2b/air-force-1-07-lx-shoe-Jpw4wf.png"
+      ],
+      "category": "shoes",
+      "gender": "women",
+      "size": ["Small", "Medium", "Large"],
+      "rating": 4.5,
+      "description": "Women's Shoes",
+      "price": 10295,
+      "color": "white"
+    },
+
+    {
+      "title": "Nike Dri-FIT One",
+      "img": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e9b51403-c4dc-40ee-8021-25d0b4ca4ac7/dri-fit-one-high-waisted-18cm-biker-shorts-50GcSG.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/cdc2a297-36f8-4502-b7f7-b8a1e1637b45/dri-fit-one-high-waisted-18cm-biker-shorts-50GcSG.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0baddb3c-88ce-446b-a307-b2107ffda11d/dri-fit-one-high-waisted-18cm-biker-shorts-50GcSG.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/601340e5-8a8f-4dfb-a1c8-5f5bb9a2aeac/dri-fit-one-high-waisted-18cm-biker-shorts-50GcSG.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/195c2974-bf36-4eba-97d6-bcde7fb1c070/dri-fit-one-high-waisted-18cm-biker-shorts-50GcSG.png"
+      ],
+      "category": "shorts",
+      "gender": "women",
+      "size": ["Small", "Medium", "Large"],
+      "rating": 2.9,
+      "description": "Women's High-Waisted 18cm (approx.) Biker Shorts",
+      "price": 2195,
+      "color": "blue"
+    },
+
+    {
+      "title": "Nike Sportswear",
+      "img": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/61f84fd5-adb8-492e-a195-15a5a1c300c5/sportswear-t-shirt-ppgKX8.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e4cea6ca-fce4-4631-96e4-6959a42790e1/sportswear-t-shirt-ppgKX8.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e86eb1ee-17c3-4efb-91a9-1d8abed786df/sportswear-t-shirt-ppgKX8.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b80ef360-ebdd-4175-9c01-3b285623facb/sportswear-t-shirt-ppgKX8.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1ed0030f-5f36-4a8b-81ab-2ef3078427d9/sportswear-t-shirt-ppgKX8.png"
+      ],
+      "category": "T-shirt",
+      "gender": "women",
+      "size": ["Small", "Medium", "Large"],
+      "rating": 3.6,
+      "description": "Women's T-Shirt",
+      "price": 1995,
+      "color": "black"
+    },
+
+    {
+      "title": "Air Jordan 1 Elevate Low SE",
+      "img": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/39a3b844-cad2-4bf8-9176-7ce09b3e1f0f/air-jordan-1-elevate-low-se-shoes-knTM1z.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5023735c-68af-424b-9922-d183b2e2b065/air-jordan-1-elevate-low-se-shoes-knTM1z.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b69a5dbc-3170-43cf-9f4f-de77091e3c6c/air-jordan-1-elevate-low-se-shoes-knTM1z.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/57fdeb6b-058f-4000-b647-587be4653427/air-jordan-1-elevate-low-se-shoes-knTM1z.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/06001f10-700e-4a82-92be-7be67d6d7847/air-jordan-1-elevate-low-se-shoes-knTM1z.png"
+      ],
+      "category": "shoes",
+      "gender": "women",
+      "size": ["Small", "Medium", "Large"],
+      "rating": 4.9,
+      "description": "Women's Shoes",
+      "price": 12795,
+      "color": "green"
+    },
+
+    {
+      "title": "Nike Air Force 1 Low x Slam Jam",
+      "img": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/6c09766f-2214-4311-bc26-810109b1dcdf/air-force-1-low-slam-jam-shoes-d81K5r.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/677ce4fb-d93d-46e3-a349-ca1b9f23a06d/air-force-1-low-slam-jam-shoes-d81K5r.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f5da2f28-2eb0-4d73-af09-bc54f6dbadab/air-force-1-low-slam-jam-shoes-d81K5r.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1e455fd8-f4ec-4bd9-af45-30cecbbe3c0e/air-force-1-low-slam-jam-shoes-d81K5r.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/bc7dfcbc-dc80-4166-8bdd-4c34968576b5/air-force-1-low-slam-jam-shoes-d81K5r.png"
+      ],
+      "category": "shoes",
+      "gender": "women",
+      "size": ["Small", "Medium", "Large"],
+      "rating": 4.2,
+      "description": "Women's Shoes",
+      "price": 15995,
+      "color": "green"
+    },
+
+    {
+      "title": "Women's Short-Sleeve Running Top",
+      "img": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0ada3134-2678-4f36-998e-d7485ce65ddb/dri-fit-swoosh-short-sleeve-running-top-jtW23k.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/bbf84423-67eb-4e88-82d7-956fb2174113/dri-fit-swoosh-short-sleeve-running-top-jtW23k.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b0505213-637c-4bd8-b8ec-4e01b4e11ef1/dri-fit-swoosh-short-sleeve-running-top-jtW23k.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2a663bc6-c713-45c8-aaad-ac1700000fd9/dri-fit-swoosh-short-sleeve-running-top-jtW23k.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5f1472da-d8ff-453d-8035-11e62627aa5e/dri-fit-swoosh-short-sleeve-running-top-jtW23k.png"
+      ],
+      "category": "T-shirt",
+      "gender": "women",
+      "size": ["Small", "Medium", "Large"],
+      "rating": 3.6,
+      "description": "Women's Short-Sleeve Running Top",
+      "price": 2195,
+      "color": "black"
+    },
+
+    {
+      "title": "Nike One Luxe",
+      "img": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/14035ef1-f4c6-4ff5-b0d0-e0137cf935fd/one-luxe-18cm-mid-rise-printed-training-shorts-MRtNk4.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/580333d1-61c0-4816-b93d-54c9250e7885/one-luxe-18cm-mid-rise-printed-training-shorts-MRtNk4.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/5a77b809-01fe-4257-92cb-c478b360531e/one-luxe-18cm-mid-rise-printed-training-shorts-MRtNk4.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/19858901-003f-4217-9605-2f7ac936c346/one-luxe-18cm-mid-rise-printed-training-shorts-MRtNk4.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ab83ae8c-ac54-496c-9b5a-27c568709435/one-luxe-18cm-mid-rise-printed-training-shorts-MRtNk4.png"
+      ],
+      "category": "shorts",
+      "gender": "women",
+      "size": ["Small", "Medium", "Large"],
+      "rating": 4.9,
+      "description": "Women's High-Waisted 18cm (approx.) Biker Shorts",
+      "price": 3395,
+      "color": "blue"
+    },
+
+    {
+      "title": "Nike React Infinity 3",
+      "img": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a53c7ee3-abde-491c-9f40-c76bebe825b0/react-infinity-3-road-running-shoes-3Vn30D.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/243c2852-b68d-4bb3-8487-fec1753193b8/react-infinity-3-road-running-shoes-3Vn30D.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/353ac2b0-05ff-4267-add0-0fb8c5e9ef31/react-infinity-3-road-running-shoes-3Vn30D.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/98590f64-5f46-4f89-bae4-48b2290e7362/react-infinity-3-road-running-shoes-3Vn30D.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7c1275f3-1917-404d-ad31-f6d6ef028b9a/react-infinity-3-road-running-shoes-3Vn30D.png"
+      ],
+      "category": "shoes",
+      "gender": "women",
+      "size": ["Small", "Medium", "Large"],
+      "rating": 4.2,
+      "description": "Women's Road Running Shoes",
+      "price": 13995,
+      "color": "pink"
+    },
+
+    {
+      "title": "Nike Pro Dri-FIT",
+      "img": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/50b33464-8a79-4bd6-b064-269b25426c2d/pro-dri-fit-short-sleeve-cropped-graphic-training-top-jhtm6S.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5d597a8d-ee02-49e0-8c78-f4300cb21f37/pro-dri-fit-short-sleeve-cropped-graphic-training-top-jhtm6S.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/dfc3d1b5-fcef-41c5-9963-6080d245b565/pro-dri-fit-short-sleeve-cropped-graphic-training-top-jhtm6S.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/48044365-083b-48ca-8f29-56c4559bdf80/pro-dri-fit-short-sleeve-cropped-graphic-training-top-jhtm6S.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f045b1e1-e4f0-4abf-8771-30cc235ed5bf/pro-dri-fit-short-sleeve-cropped-graphic-training-top-jhtm6S.png"
+      ],
+      "category": "T-shirt",
+      "gender": "women",
+      "size": ["Small", "Medium", "Large"],
+      "rating": 3.6,
+      "description": "Women's Short-Sleeve Running Top",
+      "price": 2195,
+      "color": "red"
+    },
+
+    {
+      "title": "Nike React Infinity 3",
+      "img": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/69be627a-5072-4ed0-9588-e979e7e985f2/react-infinity-3-road-running-shoes-3Vn30D.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/d1fd357f-2597-41a5-9608-354ef81b38e5/react-infinity-3-road-running-shoes-3Vn30D.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/cd18f8a9-b582-4af9-a3d8-b34da9731214/react-infinity-3-road-running-shoes-3Vn30D.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/007fecb4-d8c1-4f93-a590-762aea30b0ec/react-infinity-3-road-running-shoes-3Vn30D.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/138d5c0c-fe8c-4576-80c5-eaf1232ad8ed/react-infinity-3-road-running-shoes-3Vn30D.png"
+      ],
+      "category": "shoes",
+      "gender": "women",
+      "size": ["Small", "Medium", "Large"],
+      "rating": 4.6,
+      "description": "Women's Road Running Shoes",
+      "price": 13995,
+      "color": "blue"
+    },
+    {
+      "title": "Nike Pro 365",
+      "img": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a757d010-dc32-4bec-b33d-1570b767ae2c/pro-365-13cm-shorts-Xtrrs6.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e5712f2c-2a34-4c56-b32a-fa3611feb03b/pro-365-13cm-shorts-Xtrrs6.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ad502705-36f1-410a-9998-a0789dc1011a/pro-365-13cm-shorts-Xtrrs6.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e9576f90-d6ec-4db4-99ac-5c10dd8bd7d4/pro-365-13cm-shorts-Xtrrs6.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ea2609e9-033b-459a-8de4-fa85d156e433/pro-365-13cm-shorts-Xtrrs6.png"
+      ],
+      "category": "shorts",
+      "gender": "women",
+      "size": ["Small", "Medium", "Large"],
+      "rating": 3.6,
+      "description": "Women's 13cm (approx.) Shorts",
+      "price": 2195,
+      "color": "black"
+    },
+
+    {
+      "title": "Nike Yoga Dri-FIT ADV",
+      "img": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ed1c3584-a9a7-46f4-a750-2b8528b307dd/yoga-dri-fit-adv-high-rise-18cm-shorts-RGZm9z.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4f34be10-8d6b-4199-8bfe-6b7395cc3280/yoga-dri-fit-adv-high-rise-18cm-shorts-RGZm9z.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ca2569eb-d2ec-4cd0-879e-2b870f4fd0d1/yoga-dri-fit-adv-high-rise-18cm-shorts-RGZm9z.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5b6efc9a-d219-4a2d-92ee-f7f668399375/yoga-dri-fit-adv-high-rise-18cm-shorts-RGZm9z.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/4ca8e05b-f6c1-40a8-b34e-926becacabfb/yoga-dri-fit-adv-high-rise-18cm-shorts-RGZm9z.png"
+      ],
+      "category": "shorts",
+      "gender": "women",
+      "size": ["Small", "Medium", "Large"],
+      "rating": 4.6,
+      "description": "Women's Road Running Shoes",
+      "price": 3797,
+      "color": "brown"
+    },
+
+    {
+      "title": "Nike React Ace Tour",
+      "img": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/539cf4f7-8433-4ece-8c4f-9ad9269b8ef6/react-ace-tour-golf-shoe-T1FLbW.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/76e39d7c-6a68-4193-881e-ed49d7662fdb/react-ace-tour-golf-shoe-T1FLbW.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0d697d58-27b4-493f-9e65-91d2301d05d9/react-ace-tour-golf-shoe-T1FLbW.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/cfe04348-dbe2-421f-80e9-88d5958e4dd9/react-ace-tour-golf-shoe-T1FLbW.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5ab74e95-1d46-484b-9695-1c9921734dc1/react-ace-tour-golf-shoe-T1FLbW.png"
+      ],
+      "category": "shoes",
+      "gender": "women",
+      "size": ["Small", "Medium", "Large"],
+      "rating": 4.9,
+      "description": "Women's Golf Shoe",
+      "price": 12495,
+      "color": "white"
+    },
+
+    {
+      "title": "Nike Pro Dri-FIT",
+      "img": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e3fdd3f3-5332-4292-9469-773b3b35e9cb/dri-fit-one-standard-fit-short-sleeve-top-vMPqml.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/566a919a-cb84-4821-b346-fb5279d9817b/dri-fit-one-standard-fit-short-sleeve-top-vMPqml.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1a66dd15-d21d-4c1a-ac22-b459c485cc0e/dri-fit-one-standard-fit-short-sleeve-top-vMPqml.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/77bd9cb9-5f3f-4d50-9a17-e587b7e93236/dri-fit-one-standard-fit-short-sleeve-top-vMPqml.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/bd25db7e-342c-43ca-a79a-bd73424e4e50/dri-fit-one-standard-fit-short-sleeve-top-vMPqml.png"
+      ],
+      "category": "T-shirt",
+      "gender": "women",
+      "size": ["Small", "Medium", "Large"],
+      "rating": 4.7,
+      "description": "Women's Short-Sleeve Running Top",
+      "price": 1195,
+      "color": "blue"
+    },
+
+    {
+      "title": "Nike Zoom Fly 5",
+      "img": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/443ac36d-23b0-4965-bec9-9aa12872723b/zoom-fly-5-road-running-shoes-3sF4CW.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/9cdc0af0-f672-4aec-8c19-9283ae111de7/zoom-fly-5-road-running-shoes-3sF4CW.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/9133a140-18ef-42ce-8e34-6c924eed82f7/zoom-fly-5-road-running-shoes-3sF4CW.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ceab1888-64ad-4e52-bcac-d1b3451e28c9/zoom-fly-5-road-running-shoes-3sF4CW.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a11f4ebd-3c13-47d0-85c7-b37fb3a7bb9e/zoom-fly-5-road-running-shoes-3sF4CW.png"
+      ],
+      "category": "shoes",
+      "gender": "women",
+      "size": ["Small", "Medium", "Large"],
+      "rating": 4.3,
+      "description": "Women's Road Running Shoes",
+      "price": 14247,
+      "color": "green"
+    },
+
+    {
+      "title": "Nike Pro Dri-FIT",
+      "img": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/d699c60a-46a3-4ed0-a18d-2fc85e014ee4/sportswear-phoenix-fleece-over-oversized-crew-neck-sweatshirt-gGzPT0.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/aa3bcad5-8823-4eb2-8cc8-202f79b31b63/sportswear-phoenix-fleece-over-oversized-crew-neck-sweatshirt-gGzPT0.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2a86ab2a-6cab-4939-a1e9-95460d447929/sportswear-phoenix-fleece-over-oversized-crew-neck-sweatshirt-gGzPT0.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/9663ffbc-6b5b-4fe5-a601-83357b6f8c33/sportswear-phoenix-fleece-over-oversized-crew-neck-sweatshirt-gGzPT0.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7973512f-8433-42ed-bd15-7930a7eebd39/sportswear-phoenix-fleece-over-oversized-crew-neck-sweatshirt-gGzPT0.png"
+      ],
+      "category": "T-shirt",
+      "gender": "women",
+      "size": ["Small", "Medium", "Large"],
+      "rating": 3.7,
+      "description": "Women's Over-Oversized Crew-Neck Sweatshirt",
+      "price": 3795,
+      "color": "white"
+    },
+
+    {
+      "title": "NikeCourt Legacy Canvas Mid",
+      "img": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0e4727d9-b559-48cc-8ef4-af1531878502/nikecourt-legacy-canvas-mid-shoe-SQtSvg.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/64fde0bd-5f8b-4287-b8a6-b62b5d26ebbb/nikecourt-legacy-canvas-mid-shoe-SQtSvg.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/27d1fcff-bdd9-4334-a470-f1488fb35573/nikecourt-legacy-canvas-mid-shoe-SQtSvg.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/9c6f9802-5c4d-4fef-898b-e0b3284aff06/nikecourt-legacy-canvas-mid-shoe-SQtSvg.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/99f6e2c0-26b4-4e3a-920b-f539dab6958d/nikecourt-legacy-canvas-mid-shoe-SQtSvg.png"
+      ],
+      "category": "shoes",
+      "gender": "women",
+      "size": ["Small", "Medium", "Large"],
+      "rating": 3.3,
+      "description": "Women's Road Running Shoes",
+      "price": 4995,
+      "color": "black"
+    },
+    {
+      "title": "Nike Pro Dri-FIT",
+      "img": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/d69a97be-4c17-4d98-ac54-4e4967909aba/pro-dri-fit-mid-rise-8cm-graphic-training-shorts-K6gsm2.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e81f5ad4-9363-412b-a073-2a7fc0a65b03/pro-dri-fit-mid-rise-8cm-graphic-training-shorts-K6gsm2.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/168c8dd8-11aa-425f-8f8b-b80ad05d892d/pro-dri-fit-mid-rise-8cm-graphic-training-shorts-K6gsm2.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/fa616701-2430-4e62-91bb-6e3deff33092/pro-dri-fit-mid-rise-8cm-graphic-training-shorts-K6gsm2.png"
+      ],
+      "category": "shorts",
+      "gender": "women",
+      "size": ["Small", "Medium", "Large"],
+      "rating": 3.8,
+      "description": "Women's Mid-Rise 8cm (approx.) Graphic Training Shorts",
+      "price": 2395,
+      "color": "red"
+    },
+
+
+
+
+
+    {
+        "title": "Nike Zoom SuperRep 4 Next Nature",
+        "img": [
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/d40ff8b2-b2e3-4f3e-90ee-c2d210b2cbca/zoom-superrep-4-next-nature-hiit-class-shoes-vL8WXL.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/c0f93ff0-554d-4048-bc9f-56b38bfd834f/zoom-superrep-4-next-nature-hiit-class-shoes-vL8WXL.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/bb59f5b5-6e7c-4ba2-9d21-ffb4c99176b7/zoom-superrep-4-next-nature-hiit-class-shoes-vL8WXL.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/6c1c722d-c9b7-45fd-a6c3-ade6f1942b58/zoom-superrep-4-next-nature-hiit-class-shoes-vL8WXL.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/a52cea5a-8a48-4209-a137-786d66d29681/zoom-superrep-4-next-nature-hiit-class-shoes-vL8WXL.png"
+        ],
+        "category": "shoes",
+        "gender": "women",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 4.5,
+        "description": "Women's HIIT Class Shoes",
+        "price": 12895,
+        "color": "pink"
+      },
+  
+      {
+        "title": "Nike Sportswear Sport Shine",
+        "img": [
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/491357f5-b5ee-4800-8c05-3f29f790dce6/sportswear-sport-shine-mid-rise-bike-shorts-T7fbMG.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/57310c33-305e-4828-977d-608eaabe8e2e/sportswear-sport-shine-mid-rise-bike-shorts-T7fbMG.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a176c5e5-7228-453e-bda8-52eea5acaaa4/sportswear-sport-shine-mid-rise-bike-shorts-T7fbMG.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/8239c88a-c64d-4b98-b4da-ac493e8b76f4/sportswear-sport-shine-mid-rise-bike-shorts-T7fbMG.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b47bda2d-e61c-4b6c-8a95-bfbc0c129059/sportswear-sport-shine-mid-rise-bike-shorts-T7fbMG.png"
+        ],
+        "category": "shorts",
+        "gender": "women",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 4.6,
+        "description": "Women's Mid-Rise Bike Shorts",
+        "price": 3195,
+        "color": "black"
+      },
+  
+      {
+        "title": "Nike Sportswear Dri-FIT",
+        "img": [
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5939afc7-6e67-45fa-8239-99b2f5b2db13/sportswear-dri-fit-oversized-t-shirt-L3m9QK.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2aac5297-47cf-4d87-8389-af50a90dfdbb/sportswear-dri-fit-oversized-t-shirt-L3m9QK.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/50b69ae0-7349-493a-92bd-98b826fa869c/sportswear-dri-fit-oversized-t-shirt-L3m9QK.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/406ee580-35d1-4964-a3fe-cedfeea4ff26/sportswear-dri-fit-oversized-t-shirt-L3m9QK.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2ff44bb9-0d8e-4368-ab9d-5c4a0abece44/sportswear-dri-fit-oversized-t-shirt-L3m9QK.png"
+        ],
+        "category": "T-shirt",
+        "gender": "women",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 2.6,
+        "description": "Women's Oversized T-Shirt",
+        "price": 2195,
+        "color": "white"
+      },
+  
+      {
+        "title": "Nike Vaporfly 2",
+        "img": [
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e76351ca-b409-4f93-9d67-6a16e993557e/vaporfly-2-road-racing-shoes-KTXfRx.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/9a3cf787-69ce-4447-b0e5-f90789d9f1cf/vaporfly-2-road-racing-shoes-KTXfRx.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/20a15857-b425-4928-826c-6b7cb526fc35/vaporfly-2-road-racing-shoes-KTXfRx.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/36a6edf8-6622-4b46-b9f4-5e4ca848df9d/vaporfly-2-road-racing-shoes-KTXfRx.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/1e745808-4159-40e9-85fb-b1ed31ef7d21/vaporfly-2-road-racing-shoes-KTXfRx.png"
+        ],
+        "category": "shoes",
+        "gender": "women",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 4.9,
+        "description": "Women's Road Racing Shoes",
+        "price": 10495,
+        "color": "blue"
+      },
+  
+      {
+        "title": "Nike Air Force 1 '07 LX",
+        "img": [
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/78661b90-3c1b-499a-bebc-499aeecea01a/air-force-1-07-lx-shoe-Jpw4wf.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/c0820b54-1d20-4f33-a86e-1641eee91c2f/air-force-1-07-lx-shoe-Jpw4wf.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/23a559c6-a8c1-4817-8106-1a54b5d9d74f/air-force-1-07-lx-shoe-Jpw4wf.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f8758f0e-4b91-43f7-819e-d47270cb3834/air-force-1-07-lx-shoe-Jpw4wf.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1abc96f2-b8e9-4f42-8a8f-f0ccbd4c2a2b/air-force-1-07-lx-shoe-Jpw4wf.png"
+        ],
+        "category": "shoes",
+        "gender": "women",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 1.5,
+        "description": "Women's Shoes",
+        "price": 20295,
+        "color": "white"
+      },
+  
+      {
+        "title": "Nike Dri-FIT One",
+        "img": [
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e9b51403-c4dc-40ee-8021-25d0b4ca4ac7/dri-fit-one-high-waisted-18cm-biker-shorts-50GcSG.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/cdc2a297-36f8-4502-b7f7-b8a1e1637b45/dri-fit-one-high-waisted-18cm-biker-shorts-50GcSG.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0baddb3c-88ce-446b-a307-b2107ffda11d/dri-fit-one-high-waisted-18cm-biker-shorts-50GcSG.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/601340e5-8a8f-4dfb-a1c8-5f5bb9a2aeac/dri-fit-one-high-waisted-18cm-biker-shorts-50GcSG.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/195c2974-bf36-4eba-97d6-bcde7fb1c070/dri-fit-one-high-waisted-18cm-biker-shorts-50GcSG.png"
+        ],
+        "category": "shorts",
+        "gender": "women",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 3.9,
+        "description": "Women's High-Waisted 18cm (approx.) Biker Shorts",
+        "price": 1195,
+        "color": "blue"
+      },
+  
+      {
+        "title": "Nike Sportswear",
+        "img": [
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/61f84fd5-adb8-492e-a195-15a5a1c300c5/sportswear-t-shirt-ppgKX8.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e4cea6ca-fce4-4631-96e4-6959a42790e1/sportswear-t-shirt-ppgKX8.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e86eb1ee-17c3-4efb-91a9-1d8abed786df/sportswear-t-shirt-ppgKX8.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b80ef360-ebdd-4175-9c01-3b285623facb/sportswear-t-shirt-ppgKX8.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1ed0030f-5f36-4a8b-81ab-2ef3078427d9/sportswear-t-shirt-ppgKX8.png"
+        ],
+        "category": "T-shirt",
+        "gender": "women",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 2.6,
+        "description": "Women's T-Shirt",
+        "price": 2995,
+        "color": "black"
+      },
+  
+      {
+        "title": "Air Jordan 1 Elevate Low SE",
+        "img": [
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/39a3b844-cad2-4bf8-9176-7ce09b3e1f0f/air-jordan-1-elevate-low-se-shoes-knTM1z.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5023735c-68af-424b-9922-d183b2e2b065/air-jordan-1-elevate-low-se-shoes-knTM1z.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b69a5dbc-3170-43cf-9f4f-de77091e3c6c/air-jordan-1-elevate-low-se-shoes-knTM1z.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/57fdeb6b-058f-4000-b647-587be4653427/air-jordan-1-elevate-low-se-shoes-knTM1z.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/06001f10-700e-4a82-92be-7be67d6d7847/air-jordan-1-elevate-low-se-shoes-knTM1z.png"
+        ],
+        "category": "shoes",
+        "gender": "women",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 3.9,
+        "description": "Women's Shoes",
+        "price": 22795,
+        "color": "green"
+      },
+  
+      {
+        "title": "Nike Air Force 1 Low x Slam Jam",
+        "img": [
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/6c09766f-2214-4311-bc26-810109b1dcdf/air-force-1-low-slam-jam-shoes-d81K5r.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/677ce4fb-d93d-46e3-a349-ca1b9f23a06d/air-force-1-low-slam-jam-shoes-d81K5r.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f5da2f28-2eb0-4d73-af09-bc54f6dbadab/air-force-1-low-slam-jam-shoes-d81K5r.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1e455fd8-f4ec-4bd9-af45-30cecbbe3c0e/air-force-1-low-slam-jam-shoes-d81K5r.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/bc7dfcbc-dc80-4166-8bdd-4c34968576b5/air-force-1-low-slam-jam-shoes-d81K5r.png"
+        ],
+        "category": "shoes",
+        "gender": "women",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 3.2,
+        "description": "Women's Shoes",
+        "price": 12995,
+        "color": "green"
+      },
+  
+      {
+        "title": "Women's Short-Sleeve Running Top",
+        "img": [
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0ada3134-2678-4f36-998e-d7485ce65ddb/dri-fit-swoosh-short-sleeve-running-top-jtW23k.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/bbf84423-67eb-4e88-82d7-956fb2174113/dri-fit-swoosh-short-sleeve-running-top-jtW23k.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b0505213-637c-4bd8-b8ec-4e01b4e11ef1/dri-fit-swoosh-short-sleeve-running-top-jtW23k.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2a663bc6-c713-45c8-aaad-ac1700000fd9/dri-fit-swoosh-short-sleeve-running-top-jtW23k.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5f1472da-d8ff-453d-8035-11e62627aa5e/dri-fit-swoosh-short-sleeve-running-top-jtW23k.png"
+        ],
+        "category": "T-shirt",
+        "gender": "women",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 3.1,
+        "description": "Women's Short-Sleeve Running Top",
+        "price": 3195,
+        "color": "black"
+      },
+  
+      {
+        "title": "Nike One Luxe",
+        "img": [
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/14035ef1-f4c6-4ff5-b0d0-e0137cf935fd/one-luxe-18cm-mid-rise-printed-training-shorts-MRtNk4.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/580333d1-61c0-4816-b93d-54c9250e7885/one-luxe-18cm-mid-rise-printed-training-shorts-MRtNk4.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/5a77b809-01fe-4257-92cb-c478b360531e/one-luxe-18cm-mid-rise-printed-training-shorts-MRtNk4.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/19858901-003f-4217-9605-2f7ac936c346/one-luxe-18cm-mid-rise-printed-training-shorts-MRtNk4.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ab83ae8c-ac54-496c-9b5a-27c568709435/one-luxe-18cm-mid-rise-printed-training-shorts-MRtNk4.png"
+        ],
+        "category": "shorts",
+        "gender": "women",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 3.9,
+        "description": "Women's High-Waisted 18cm (approx.) Biker Shorts",
+        "price": 5395,
+        "color": "blue"
+      },
+  
+      {
+        "title": "Nike React Infinity 3",
+        "img": [
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a53c7ee3-abde-491c-9f40-c76bebe825b0/react-infinity-3-road-running-shoes-3Vn30D.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/243c2852-b68d-4bb3-8487-fec1753193b8/react-infinity-3-road-running-shoes-3Vn30D.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/353ac2b0-05ff-4267-add0-0fb8c5e9ef31/react-infinity-3-road-running-shoes-3Vn30D.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/98590f64-5f46-4f89-bae4-48b2290e7362/react-infinity-3-road-running-shoes-3Vn30D.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7c1275f3-1917-404d-ad31-f6d6ef028b9a/react-infinity-3-road-running-shoes-3Vn30D.png"
+        ],
+        "category": "shoes",
+        "gender": "women",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 4.5,
+        "description": "Women's Road Running Shoes",
+        "price": 17995,
+        "color": "pink"
+      },
+  
+      {
+        "title": "Nike Pro Dri-FIT",
+        "img": [
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/50b33464-8a79-4bd6-b064-269b25426c2d/pro-dri-fit-short-sleeve-cropped-graphic-training-top-jhtm6S.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5d597a8d-ee02-49e0-8c78-f4300cb21f37/pro-dri-fit-short-sleeve-cropped-graphic-training-top-jhtm6S.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/dfc3d1b5-fcef-41c5-9963-6080d245b565/pro-dri-fit-short-sleeve-cropped-graphic-training-top-jhtm6S.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/48044365-083b-48ca-8f29-56c4559bdf80/pro-dri-fit-short-sleeve-cropped-graphic-training-top-jhtm6S.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f045b1e1-e4f0-4abf-8771-30cc235ed5bf/pro-dri-fit-short-sleeve-cropped-graphic-training-top-jhtm6S.png"
+        ],
+        "category": "T-shirt",
+        "gender": "women",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 3.1,
+        "description": "Women's Short-Sleeve Running Top",
+        "price": 6195,
+        "color": "red"
+      },
+  
+      {
+        "title": "Nike React Infinity 3",
+        "img": [
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/69be627a-5072-4ed0-9588-e979e7e985f2/react-infinity-3-road-running-shoes-3Vn30D.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/d1fd357f-2597-41a5-9608-354ef81b38e5/react-infinity-3-road-running-shoes-3Vn30D.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/cd18f8a9-b582-4af9-a3d8-b34da9731214/react-infinity-3-road-running-shoes-3Vn30D.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/007fecb4-d8c1-4f93-a590-762aea30b0ec/react-infinity-3-road-running-shoes-3Vn30D.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/138d5c0c-fe8c-4576-80c5-eaf1232ad8ed/react-infinity-3-road-running-shoes-3Vn30D.png"
+        ],
+        "category": "shoes",
+        "gender": "women",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 4.9,
+        "description": "Women's Road Running Shoes",
+        "price": 23995,
+        "color": "blue"
+      },
+      {
+        "title": "Nike Pro 365",
+        "img": [
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a757d010-dc32-4bec-b33d-1570b767ae2c/pro-365-13cm-shorts-Xtrrs6.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e5712f2c-2a34-4c56-b32a-fa3611feb03b/pro-365-13cm-shorts-Xtrrs6.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ad502705-36f1-410a-9998-a0789dc1011a/pro-365-13cm-shorts-Xtrrs6.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e9576f90-d6ec-4db4-99ac-5c10dd8bd7d4/pro-365-13cm-shorts-Xtrrs6.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ea2609e9-033b-459a-8de4-fa85d156e433/pro-365-13cm-shorts-Xtrrs6.png"
+        ],
+        "category": "shorts",
+        "gender": "women",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 3.2,
+        "description": "Women's 13cm (approx.) Shorts",
+        "price": 3195,
+        "color": "black"
+      },
+  
+      {
+        "title": "Nike Yoga Dri-FIT ADV",
+        "img": [
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ed1c3584-a9a7-46f4-a750-2b8528b307dd/yoga-dri-fit-adv-high-rise-18cm-shorts-RGZm9z.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4f34be10-8d6b-4199-8bfe-6b7395cc3280/yoga-dri-fit-adv-high-rise-18cm-shorts-RGZm9z.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ca2569eb-d2ec-4cd0-879e-2b870f4fd0d1/yoga-dri-fit-adv-high-rise-18cm-shorts-RGZm9z.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5b6efc9a-d219-4a2d-92ee-f7f668399375/yoga-dri-fit-adv-high-rise-18cm-shorts-RGZm9z.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/4ca8e05b-f6c1-40a8-b34e-926becacabfb/yoga-dri-fit-adv-high-rise-18cm-shorts-RGZm9z.png"
+        ],
+        "category": "shorts",
+        "gender": "women",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 3.6,
+        "description": "Women's Road Running Shoes",
+        "price": 4797,
+        "color": "brown"
+      },
+  
+      {
+        "title": "Nike React Ace Tour",
+        "img": [
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/539cf4f7-8433-4ece-8c4f-9ad9269b8ef6/react-ace-tour-golf-shoe-T1FLbW.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/76e39d7c-6a68-4193-881e-ed49d7662fdb/react-ace-tour-golf-shoe-T1FLbW.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0d697d58-27b4-493f-9e65-91d2301d05d9/react-ace-tour-golf-shoe-T1FLbW.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/cfe04348-dbe2-421f-80e9-88d5958e4dd9/react-ace-tour-golf-shoe-T1FLbW.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5ab74e95-1d46-484b-9695-1c9921734dc1/react-ace-tour-golf-shoe-T1FLbW.png"
+        ],
+        "category": "shoes",
+        "gender": "women",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 3.1,
+        "description": "Women's Golf Shoe",
+        "price": 21495,
+        "color": "white"
+      },
+  
+      {
+        "title": "Nike Pro Dri-FIT",
+        "img": [
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e3fdd3f3-5332-4292-9469-773b3b35e9cb/dri-fit-one-standard-fit-short-sleeve-top-vMPqml.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/566a919a-cb84-4821-b346-fb5279d9817b/dri-fit-one-standard-fit-short-sleeve-top-vMPqml.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1a66dd15-d21d-4c1a-ac22-b459c485cc0e/dri-fit-one-standard-fit-short-sleeve-top-vMPqml.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/77bd9cb9-5f3f-4d50-9a17-e587b7e93236/dri-fit-one-standard-fit-short-sleeve-top-vMPqml.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/bd25db7e-342c-43ca-a79a-bd73424e4e50/dri-fit-one-standard-fit-short-sleeve-top-vMPqml.png"
+        ],
+        "category": "T-shirt",
+        "gender": "women",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 3.7,
+        "description": "Women's Short-Sleeve Running Top",
+        "price": 2295,
+        "color": "blue"
+      },
+  
+      {
+        "title": "Nike Zoom Fly 5",
+        "img": [
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/443ac36d-23b0-4965-bec9-9aa12872723b/zoom-fly-5-road-running-shoes-3sF4CW.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/9cdc0af0-f672-4aec-8c19-9283ae111de7/zoom-fly-5-road-running-shoes-3sF4CW.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/9133a140-18ef-42ce-8e34-6c924eed82f7/zoom-fly-5-road-running-shoes-3sF4CW.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ceab1888-64ad-4e52-bcac-d1b3451e28c9/zoom-fly-5-road-running-shoes-3sF4CW.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a11f4ebd-3c13-47d0-85c7-b37fb3a7bb9e/zoom-fly-5-road-running-shoes-3sF4CW.png"
+        ],
+        "category": "shoes",
+        "gender": "women",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 3.3,
+        "description": "Women's Road Running Shoes",
+        "price": 19247,
+        "color": "green"
+      },
+  
+      {
+        "title": "Nike Pro Dri-FIT",
+        "img": [
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/d699c60a-46a3-4ed0-a18d-2fc85e014ee4/sportswear-phoenix-fleece-over-oversized-crew-neck-sweatshirt-gGzPT0.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/aa3bcad5-8823-4eb2-8cc8-202f79b31b63/sportswear-phoenix-fleece-over-oversized-crew-neck-sweatshirt-gGzPT0.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2a86ab2a-6cab-4939-a1e9-95460d447929/sportswear-phoenix-fleece-over-oversized-crew-neck-sweatshirt-gGzPT0.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/9663ffbc-6b5b-4fe5-a601-83357b6f8c33/sportswear-phoenix-fleece-over-oversized-crew-neck-sweatshirt-gGzPT0.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7973512f-8433-42ed-bd15-7930a7eebd39/sportswear-phoenix-fleece-over-oversized-crew-neck-sweatshirt-gGzPT0.png"
+        ],
+        "category": "T-shirt",
+        "gender": "women",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 4.7,
+        "description": "Women's Over-Oversized Crew-Neck Sweatshirt",
+        "price": 4795,
+        "color": "white"
+      },
+  
+      {
+        "title": "NikeCourt Legacy Canvas Mid",
+        "img": [
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0e4727d9-b559-48cc-8ef4-af1531878502/nikecourt-legacy-canvas-mid-shoe-SQtSvg.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/64fde0bd-5f8b-4287-b8a6-b62b5d26ebbb/nikecourt-legacy-canvas-mid-shoe-SQtSvg.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/27d1fcff-bdd9-4334-a470-f1488fb35573/nikecourt-legacy-canvas-mid-shoe-SQtSvg.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/9c6f9802-5c4d-4fef-898b-e0b3284aff06/nikecourt-legacy-canvas-mid-shoe-SQtSvg.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/99f6e2c0-26b4-4e3a-920b-f539dab6958d/nikecourt-legacy-canvas-mid-shoe-SQtSvg.png"
+        ],
+        "category": "shoes",
+        "gender": "women",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 4.3,
+        "description": "Women's Road Running Shoes",
+        "price": 2895,
+        "color": "black"
+      },
+      {
+        "title": "Nike Pro Dri-FIT",
+        "img": [
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/d69a97be-4c17-4d98-ac54-4e4967909aba/pro-dri-fit-mid-rise-8cm-graphic-training-shorts-K6gsm2.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e81f5ad4-9363-412b-a073-2a7fc0a65b03/pro-dri-fit-mid-rise-8cm-graphic-training-shorts-K6gsm2.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/168c8dd8-11aa-425f-8f8b-b80ad05d892d/pro-dri-fit-mid-rise-8cm-graphic-training-shorts-K6gsm2.png",
+          "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/fa616701-2430-4e62-91bb-6e3deff33092/pro-dri-fit-mid-rise-8cm-graphic-training-shorts-K6gsm2.png"
+        ],
+        "category": "shorts",
+        "gender": "women",
+        "size": ["Small", "Medium", "Large"],
+        "rating": 4.8,
+        "description": "Women's Mid-Rise 8cm (approx.) Graphic Training Shorts",
+        "price": 6395,
+        "color": "red"
+      }
+  ]
+}

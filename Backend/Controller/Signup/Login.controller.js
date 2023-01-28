@@ -6,7 +6,7 @@ const Login=async (req,res)=>{
     const {email,password}=req.body;
      const user=await Signupmodel.findOne({email})
       if(!user){
-         res.send({"msg":"Please Signup First"})
+         res.send({"msg":"Please Signup First",toast:"e"})
       }
       else{
         const hash_passowrd=user.password
@@ -17,7 +17,7 @@ const Login=async (req,res)=>{
           }
            if(result){
             var token = jwt.sign({ userid }, "1234" );
-            res.send({ "msg": "Login SucessFull", "token": token,toast:"s" })
+            res.send({ "msg": "Login SucessFull", "token": token,toast:"s",user:user.firstname})
            }
            else{
             res.send({ "msg": "wrong Credential",toast:"e" });           }

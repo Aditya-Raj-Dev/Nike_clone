@@ -129,7 +129,7 @@ async function handlesignupsubmit(){
         <Input placeholder='First Name' size='md' name="firstname"  onChange={handlesignup} />
         <Input placeholder='Last Name' size='md' name="lastname"  onChange={handlesignup}/>
         <Input placeholder='Date of Birth' size='md'  onChange={handlesignup}
-        type="datetime-local" name="dob"/>
+        type="date" name="dob"/>
         <Input placeholder='Country' size='md' name="country"  onChange={handlesignup}/>
      
           <Accordion  defaultIndex={[0]} allowMultiple>

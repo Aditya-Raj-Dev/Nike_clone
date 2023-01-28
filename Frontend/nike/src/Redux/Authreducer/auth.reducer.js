@@ -1,16 +1,22 @@
 import { StatHelpText } from "@chakra-ui/react"
+import { extractfromLocatstorage } from "../../Components/Localstotage/Localstorage"
 import * as types from "./action.types"
 
 const initialstate={
-    isAuth:false,
-    signup:false,
-    token:"",
+    isAuth: extractfromLocatstorage("token")?true: false,
+    signup: extractfromLocatstorage("token")?true:false,
+    token: extractfromLocatstorage("token") || "",
     user: {},
     toast:"",
     msg:""
 }
 export const authReducer=(oldstate=initialstate,{type,payload})=>{
     switch(type){
+        case types.LOGOUT_SUCCESS:{
+            return {
+                ...oldstate,signup:false,isAuth:false,token:""
+            }
+        }
          case types.SIGNUP_SUCCESS:{
             return{
                ...oldstate,signup:true,msg:payload.msg,toast:payload.toast
@@ -23,7 +29,7 @@ export const authReducer=(oldstate=initialstate,{type,payload})=>{
          }
          case types.LOGIN_SUCCESS:{
             return {
-                ...oldstate,isAuth:true,msg:payload.msg,toast:payload.toast,token:payload.token
+                ...oldstate,isAuth:true,msg:payload.msg,toast:payload.toast,token:payload.token,signup:true
             }
          }
          case types.LOGIN_FAILED:{

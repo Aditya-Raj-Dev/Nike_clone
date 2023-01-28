@@ -1,10 +1,19 @@
 import { Box, Heading, Input, InputGroup,Flex, Button, InputRightElement } from '@chakra-ui/react'
 import React from 'react'
+import { useEffect } from 'react'
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { useDispatch, useSelector } from 'react-redux'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
+import { GetLoginsuccess } from '../../Redux/Authreducer/action'
+import { useToast } from '@chakra-ui/react'
 
 const Login = () => {
-
+  const toast = useToast()
+  const {pathname}=useLocation()
+  const navigate=useNavigate()
+const dispatch=useDispatch()
+const logincred=useSelector((state)=>state.authReducer)
+console.log(logincred)
   const [show,setShow] = React.useState(false)
   const handleClick = () => setShow(!show)
   const [logindata,setLogindata]=useState({
@@ -20,7 +29,32 @@ const Login = () => {
     })
   }
 
-  function han
+  function handleloginsubmit(){
+    dispatch(GetLoginsuccess(logindata))
+   if(pathname==="/login"){
+    navigate("/")
+   }
+   else{
+    navigate(pathname)
+   }
+    // navigate("/")
+  }
+
+  useEffect(()=>{
+      if(logincred.isAuth){
+        toast(
+          {
+            title:`${logincred.msg}`,
+            description: logincred.toast==="s"?"you can shop now.":"You Can Login Now",
+            status: logincred.toast==="s"?"success":"info",
+            duration: 2000,
+            position:"top",
+            isClosable: true,
+          }
+        )
+        // navigate("/")
+      }
+  },[logincred.isAuth])
    
   return (
     <Box

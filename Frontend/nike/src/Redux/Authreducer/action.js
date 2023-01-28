@@ -32,7 +32,7 @@ import { setTolocalstorage } from "../../Components/Localstotage/Localstorage"
 }
 
 export const GetLogoutSuccess=()=>async (dispatch)=>{
-
+   dispatch({type:types.LOGOUT_SUCCESS})
 }
 
 

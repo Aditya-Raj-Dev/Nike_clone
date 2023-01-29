@@ -68,3 +68,15 @@ export const ShowCartdata=(url,toast)=>async(dispatch)=>{
     })
    
 }
+
+export const DeleteCartItem=(url,toast)=>async(dispatch)=>{
+    console.log(url,toast)
+    return axios.delete(url)
+    .then((r)=>{
+        dispatch({type:types.DELETE_CART_ITEM,payload:r.data.data})
+        setToast(toast,'Item Successfully Deleted',"",'success')
+    })
+    .catch((e)=>{
+        setToast(toast,'Something went Wrong',"",'error')
+    })
+}

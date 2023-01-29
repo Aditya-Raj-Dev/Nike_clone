@@ -66,16 +66,22 @@ const GetAll = (model) => async (req, res) => {
 
 const DeleteItem = (model) => async (req, res) => {
   try {
-    const data = await model.findByIdAndDelete(req.params.id);
-
-    res.status(201).send(data);
+    await model.findByIdAndDelete(req.params.id);
+    const data = await model.find()
+    res.status(201).send({ msg: "successfull", data: data });
   } catch (e) {
     res.status(500).send({ msg: "failed" });
   }
 };
 
 const Changequantity=(model)=> async (req,res)=>{
-
+  await model.findByIdAndUpdate( req.body.id, { $inc: { quantity: req.body.qty} }, (error, result) => {
+    if (error) {
+     res.send(error)
+    }
+   res.send(result)
+  });
+  
 }
 
 const PostFavourite = (model) => async (req, res) => {
@@ -97,4 +103,4 @@ const getFavourites = (model) => async (req, res) => {
   }
 };
 
-module.exports = { PostMany, Postone,Getparams, GetAll, DeleteItem,getFavourites,PostFavourite,Addtocart };
+module.exports = { PostMany, Postone,Getparams, GetAll, DeleteItem,getFavourites,PostFavourite,Addtocart,Changequantity };

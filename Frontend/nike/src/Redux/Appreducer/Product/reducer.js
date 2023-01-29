@@ -12,7 +12,13 @@ const initialstate={
 }
 
 export const ProductReducer=(state=initialstate,{type,payload})=>{
+    
     switch(type){
+        case types.DELETE_CART_ITEM:{
+            return{
+                ...state,cart:payload
+            }
+        }
         case types.SHOW_CART_DATA:{
             return {
             ...state,cart:payload

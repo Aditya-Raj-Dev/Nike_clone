@@ -1,20 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
 import "../Navbar/navbar.css";
 import {
   Box,
   Button,
-  Input,
+  Flex,
+
   Menu,
   MenuButton,
   MenuItem,
   MenuList,
-  Select,
+
   useToast,
 } from "@chakra-ui/react";
-import { BiHeart } from "react-icons/bi";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { HiOutlineShoppingBag } from "react-icons/hi";
-import { useNavigate } from "react-router-dom";
+
 import { useDispatch, useSelector } from "react-redux";
 import {
   PriceHighToLow,
@@ -28,6 +26,7 @@ import { FcFilledFilter } from "react-icons/fc";
 import { GrSort } from "react-icons/gr";
 import { AiOutlineDown } from "react-icons/ai";
 import "./Sorting.css"
+import { clear } from "@testing-library/user-event/dist/clear";
 
 const Sorting = () => {
   const filter = useSelector((state) => state.ProductReducer.showfilter);
@@ -59,13 +58,17 @@ const Sorting = () => {
   };
 
   return (
-    <div
-      className="sortingbox"
-    >
-      <div className="sorting">
+   
+      <Flex
+      width="90%"
+      gap={["10px"]}
+      margin="auto"
+      justifyContent={["center","right"]}
+      >
         <div>
           <Button
           fontSize={["13px", "16px"]}
+        
             rightIcon={<FcFilledFilter />}
             onClick={() => {
               dispatch(ShowFilter());
@@ -113,8 +116,8 @@ const Sorting = () => {
             </Menu>
           </Box>
         </div>
-      </div>
-    </div>
+     
+    </Flex>
   );
 };
 

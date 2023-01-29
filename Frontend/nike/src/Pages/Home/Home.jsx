@@ -21,7 +21,7 @@ const navigate=useNavigate()
 }, []);
   return (
     <div className='homebox'>
-      <img src={Hometop1} alt="" className='hometopimg'/>
+      <img src={Hometop1} alt="" className='hometopimg' onClick={()=>navigate("/women/63d585f6b4b55975f57272d4")}/>
       {/* first div */}
       <br />
        <br />
@@ -29,10 +29,10 @@ const navigate=useNavigate()
        <p className='featured'>Featured</p>
       <div className='home'>
         <div>
-          <img src={Hometop2} alt="" />
+          <img src={Hometop2} onClick={()=>navigate("/men")} alt="" />
         </div>
         <div>
-          <img src={Hometop3} alt="" />
+          <img src={Hometop3} alt=""  onClick={()=>navigate("/women")}/>
         </div>
       </div>
       <br />
@@ -52,7 +52,7 @@ const navigate=useNavigate()
          </div>
           <p> Phantom GX's precision, Powered by Gripknit</p>
           <br />
-          <button>Shop</button>
+          <button  onClick={()=>navigate("/kids")}>Shop</button>
       </div>
       <br />
       <br />

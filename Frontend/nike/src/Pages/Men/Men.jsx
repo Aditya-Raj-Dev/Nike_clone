@@ -30,7 +30,7 @@ const navigate=useNavigate()
       setData(prod);
     }
   }, [prod.length, sort,location.search]);
-  
+     console.log(prod)
   return (
     <div>
       <div>

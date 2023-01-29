@@ -1,8 +1,10 @@
 import React from 'react'
-
+import Product from '../ProductDetail/Product'
 const Kids = () => {
   return (
-    <div>Kids</div>
+    <div>
+   <Product url="kids"/>
+    </div>
   )
 }
 

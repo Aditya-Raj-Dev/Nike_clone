@@ -7,12 +7,17 @@ const initialstate={
     isloading:false,
     isError:false,
     showfilter:true,
-    sort:false
+    sort:false,
+    cart:[]
 }
 
 export const ProductReducer=(state=initialstate,{type,payload})=>{
     switch(type){
-
+        case types.SHOW_CART_DATA:{
+            return {
+            ...state,cart:payload
+            }
+        }
         case types.SHOW_SINGLE_PRODUCT:{
             return {
                 ...state,singleprod:payload
@@ -38,7 +43,7 @@ export const ProductReducer=(state=initialstate,{type,payload})=>{
                 ...state,prod: state.prod.sort((a, b) => a.price -b.price),sort:!state.sort
             }
         }
-        case types.RATING_HIGH_TO_LOW:{
+        case types.RATING_LOW_TO_HIGH:{
             return {
                 ...state,prod: state.prod.sort((a, b) => a.rating - b.rating),sort:!state.sort
             }

@@ -68,7 +68,7 @@ const Filter = (props) => {
 
 
     return (
-    <div>
+    <div style={{width:"100%"}}>
       <Heading>
         FILTERS
       </Heading>

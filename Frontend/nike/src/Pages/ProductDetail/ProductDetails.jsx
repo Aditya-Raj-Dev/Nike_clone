@@ -8,7 +8,7 @@ import { BsHeart } from 'react-icons/bs';
 import axios from 'axios'
 import { useToast } from '@chakra-ui/react'
 
-const ProductDetails = ({product}) => {
+const ProductDetails = ({product,url}) => {
   const [size,setSize]=useState('')
   const [sizeselected,setSizeselected]=useState(false)
   const toast=useToast()

@@ -28,7 +28,6 @@ const Addtocart= (model) => async (req, res) => {
 
 const Getparams =(model)=> async (req,res)=>{
    const _id=req.params.id
-   console.log(_id)
   try{
     const data =await model.find({_id:_id});
    
@@ -51,7 +50,6 @@ const PostMany = (model) => async (req, res) => {
 const GetAll = (model) => async (req, res) => {
   try {
     if(req.query){
-     
       const data=await model.find(req.query)
       res.status(200).send({"msg":"successfull", data: data })
     }

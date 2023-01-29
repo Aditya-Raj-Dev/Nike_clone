@@ -7,7 +7,6 @@ import ProductDetails from '../ProductDetail/ProductDetails'
 const Mendetail = () => {
   const {id}=useParams()
   const product=useSelector((state)=>state.ProductReducer.singleprod)
-
   const dispatch=useDispatch()
 
   useEffect(()=>{
@@ -15,7 +14,7 @@ const Mendetail = () => {
   },[])
   return (
     <div>
-       <ProductDetails product={product}/>
+       <ProductDetails product={product} url="men"/>
     </div>
   )
 }

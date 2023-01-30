@@ -12,10 +12,8 @@ const Login=async (req,res)=>{
         const hash_passowrd=user.password
         const userid=user._id
         bcrypt.compare(password, hash_passowrd, function(err, result) {
-          if(err){
-            res.send({"msg": "Please Login Again",toast:"e" })
-          }
            if(result){
+            console.log(result,"r")
             var token = jwt.sign({ userid }, "1234" );
             res.send({ "msg": "Login SucessFull", "token": token,toast:"s",user:user.firstname})
            }

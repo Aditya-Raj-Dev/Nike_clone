@@ -12,8 +12,12 @@ const initialstate={
 }
 
 export const ProductReducer=(state=initialstate,{type,payload})=>{
-    
     switch(type){
+        case types.UPDATE_CART_ITEM :{
+            return {
+              ...state,cart:payload 
+            }
+        }
         case types.DELETE_CART_ITEM:{
             return{
                 ...state,cart:payload

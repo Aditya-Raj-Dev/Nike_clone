@@ -2,13 +2,14 @@ import { Box, Button, color, Flex, useToast } from '@chakra-ui/react'
 import React from 'react'
 import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { DeleteCartItem, ShowCartdata } from '../../Redux/Appreducer/Product/action'
+import { DeleteCartItem, ShowCartdata, UpdateCartItem } from '../../Redux/Appreducer/Product/action'
 import { Image } from '@chakra-ui/react'
 import { Heading } from '@chakra-ui/react'
 import { Select } from '@chakra-ui/react'
 import { BsHeart,BsFillQuestionCircleFill } from 'react-icons/bs';
 import { RiDeleteBin6Line} from 'react-icons/ri';
 import "./cart.css"
+import { setToast } from '../../Function/Toastfunction'
 
 const Cart = () => {
   const dispatch=useDispatch()
@@ -17,8 +18,18 @@ const Cart = () => {
 
 
   let price=data.reduce((acc,curr)=>{
-    return acc+curr.price
+    return acc+curr.price*curr.quantity 
  },0)
+// let price=0
+
+
+ function handlechangeqty(e,id,qty){
+  // if(e===qty){
+  //   setToast(toast,`Quantity is Already ${qty}`,"",'info')
+  // }
+  dispatch(UpdateCartItem(`http://localhost:8080/bag/${id}`,e,toast))
+
+ }
 
   useEffect(()=>{
    dispatch(ShowCartdata("http://localhost:8080/bag",toast))
@@ -82,8 +93,14 @@ const Cart = () => {
                         size={["sm","md"]} color="grey" fontWeight={["400"]}>
                           Quantity
                         </Heading>
-                        <Select placeholder='1'  height={["24px"]} fontWeight={["500"]}
+                        <Heading as='h5' 
+                        size={["sm","md"]} color="grey" fontWeight={["400"]}>
+                        : {item.quantity}
+                        </Heading>
+                        <Select placeholder={item.quantity}  height={["24px"]} fontWeight={["500"]}
+                        onChange={(e)=>handlechangeqty(e.target.value,item._id,item.quantity)}
                         width={["4rem"]} marginTop={["3px"]}>
+                          <option value='1'>1</option>
                           <option value='2'>2</option>
                           <option value='3'> 3</option>
                           <option value='4'> 4</option>

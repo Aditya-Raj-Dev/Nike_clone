@@ -80,3 +80,24 @@ export const DeleteCartItem=(url,toast)=>async(dispatch)=>{
         setToast(toast,'Something went Wrong',"",'error')
     })
 }
+
+export const UpdateCartItem=(url,qty,toast)=>async(dispatch)=>{
+    console.log(url)
+    console.log(qty)
+    console.log(toast)
+    return axios({
+        url:url,
+        method:"PATCH",
+        data:{
+            qty:qty
+        }
+    })
+    .then((r)=>{
+        console.log(r)
+        dispatch({type:types.UPDATE_CART_ITEM,payload:r.data.data})
+        setToast(toast,'Quantity Successfully updated',"",'success')
+    })
+    .catch((e)=>{
+        setToast(toast,'Something went Wrong',"",'error')
+    })
+}

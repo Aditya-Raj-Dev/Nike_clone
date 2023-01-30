@@ -70,18 +70,21 @@ const DeleteItem = (model) => async (req, res) => {
     const data = await model.find()
     res.status(201).send({ msg: "successfull", data: data });
   } catch (e) {
-    res.status(500).send({ msg: "failed" });
+  
   }
 };
 
 const Changequantity=(model)=> async (req,res)=>{
-  await model.findByIdAndUpdate( req.body.id, { $inc: { quantity: req.body.qty} }, (error, result) => {
-    if (error) {
-     res.send(error)
-    }
-   res.send(result)
-  });
-  
+  try{
+    await  model.findOneAndUpdate({ _id: req.params.id }, {quantity: +(req.body.qty)}, { new: true });
+    const data = await model.find()
+    res.status(201).send({ msg: "successfull", data: data });
+  }
+  catch(e){
+    res.status(500).send({ msg: "failed" }); 
+  }
+
+
 }
 
 const PostFavourite = (model) => async (req, res) => {

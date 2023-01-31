@@ -10,7 +10,7 @@ const Mendetail = () => {
   const dispatch=useDispatch()
 
   useEffect(()=>{
-   dispatch(Showsingleproduct(`http://localhost:8080/mens/${id}`))
+   dispatch(Showsingleproduct(`https://nike-backend-bw9b.onrender.com/mens/${id}`))
   },[])
   return (
     <div>

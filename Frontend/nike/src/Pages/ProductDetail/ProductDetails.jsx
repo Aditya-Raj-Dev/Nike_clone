@@ -39,7 +39,7 @@ const ProductDetails = ({product,url}) => {
     prod[0].quantity=1
     axios({
       method:"POST",
-      url:"http://localhost:8080/bag",
+      url:"https://nike-backend-bw9b.onrender.com/bag",
       data:prod[0]
     }).then((r)=>{
     if(r.data.toast==="s"){

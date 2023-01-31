@@ -25,12 +25,12 @@ const navigate=useNavigate()
         color:searchparam.getAll("color")
       }
     }
-    dispatch(getData("http://localhost:8080/mens",prodparam));
+    dispatch(getData("https://nike-backend-bw9b.onrender.com/mens",prodparam));
     if (prod.length > 0) {
       setData(prod);
     }
   }, [prod.length, sort,location.search]);
-     console.log(prod)
+
   return (
     <div>
       <div>

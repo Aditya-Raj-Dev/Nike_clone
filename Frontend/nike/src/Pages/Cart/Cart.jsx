@@ -31,11 +31,11 @@ const Cart = () => {
     // if(e===qty){
     //   setToast(toast,`Quantity is Already ${qty}`,"",'info')
     // }
-    dispatch(UpdateCartItem(`http://localhost:8080/bag/${id}`, e, toast));
+    dispatch(UpdateCartItem(`https://nike-backend-bw9b.onrender.com/bag/${id}`, e, toast));
   }
 
   useEffect(() => {
-    dispatch(ShowCartdata("http://localhost:8080/bag", toast));
+    dispatch(ShowCartdata("https://nike-backend-bw9b.onrender.com/bag", toast));
   }, []);
 
   return (
@@ -152,7 +152,7 @@ const Cart = () => {
                       onClick={() =>
                         dispatch(
                           DeleteCartItem(
-                            `http://localhost:8080/bag/${item._id}`,
+                            `https://nike-backend-bw9b.onrender.com/bag/${item._id}`,
                             toast
                           )
                         )

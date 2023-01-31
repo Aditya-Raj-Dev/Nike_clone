@@ -30,7 +30,6 @@ console.log(logincred)
   }
 
  function handleloginsubmit(){
-  console.log(location)
  let nav=location.state===null?"/": location.state.from 
  dispatch(GetLoginsuccess(logindata,toast,nav,navigate))
  

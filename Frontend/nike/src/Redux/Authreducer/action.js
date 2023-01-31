@@ -13,7 +13,7 @@ export const GetSignupsuccess = (cred, toast, navigate) => async (dispatch) => {
   console.log(cred);
   axios({
     method: "POST",
-    url: "http://localhost:8080/signup",
+    url: "https://nike-backend-bw9b.onrender.com/signup",
     data: cred,
   })
     .then((r) => {
@@ -36,16 +36,21 @@ export const GetLoginsuccess =
   (data, toast, nav, navigate) => async (dispatch) => {
     axios({
       method: "POST",
-      url: "http://localhost:8080/login",
+      url: "https://nike-backend-bw9b.onrender.combw9b.onrender.combw9b.onrender.com/login",
       data: data,
     })
       .then((r) => {
-        console.log(r.data.user);
-        setToast(toast, "Login successfully", "You can Shop Now", "success");
-        dispatch({ type: types.LOGIN_SUCCESS, payload: r.data });
-        setTolocalstorage("token", r.data.token);
-        setTolocalstorage("name", r.data.user);
-        navigate(nav);
+        if(r.data.toast==="s"){
+          setToast(toast, "Login successfull", "You can Shop Now", "success");
+          dispatch({ type: types.LOGIN_SUCCESS, payload: r.data });
+          setTolocalstorage("token", r.data.token);
+          setTolocalstorage("name", r.data.user);
+          navigate(nav);
+        }
+        else{
+          setToast(toast, `${r.data.msg}`, "Please login again", "error");
+        }
+      
       })
       .catch((e) => {
         setToast(toast, "Login Failed", "Please login again", "error");

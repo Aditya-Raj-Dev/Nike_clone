@@ -12,7 +12,7 @@ const Kidsdetail = () => {
 
 
   useEffect(()=>{
-    dispatch(Showsingleproduct(`http://localhost:8080/kids/${id}`))
+    dispatch(Showsingleproduct(`https://nike-backend-bw9b.onrender.com/kids/${id}`))
    },[])
   return (
     <ProductDetails product={product}/>

@@ -96,3 +96,7 @@ export const UpdateCartItem = (url, qty, toast) => async (dispatch) => {
       setToast(toast, "Something went Wrong", "", "error");
     });
 };
+
+export const SearchProduct=(prod)=>async(dispatch)=>{
+console.log(prod)
+}

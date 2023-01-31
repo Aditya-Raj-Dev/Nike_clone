@@ -7,12 +7,28 @@ import { Drawernavbar } from "./Drawernavbar";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { GetLogoutSuccess } from "../../Redux/Authreducer/action";
+import { useEffect } from "react";
+import { SearchProduct } from "../../Redux/Appreducer/Product/action";
 
 const Navbar = () => {
   const cred = useSelector((state) => state.authReducer);
+  const product=useSelector((state)=>state.ProductReducer.prod)
   const toast = useToast();
   const navigate = useNavigate();
   const dispatch = useDispatch();
+  const [searchTerm, setSearchTerm] = useState("");
+
+   
+      
+   useEffect(()=>{
+   const prod=product.filter((item)=>{
+    return item.title.toLowerCase()===searchTerm.toLowerCase()
+   })
+   console.log(prod)
+  
+   },[searchTerm,product.length])
+    
+
 
   return (
     <div>
@@ -58,7 +74,7 @@ const Navbar = () => {
 
         {/* 2nd div */}
         <div className="navbarcart">
-          <input placeholder=" Search" size="sm" className="navsearch" />
+          <input placeholder=" Search" size="sm" className="navsearch"  onChange={(e) => setSearchTerm(e.target.value)} />
           <BiHeart fontSize="30px" className="circle" />
           <HiOutlineShoppingBag
             fontSize="29px"

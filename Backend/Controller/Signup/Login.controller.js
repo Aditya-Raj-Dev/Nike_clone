@@ -15,7 +15,7 @@ const Login=async (req,res)=>{
            if(result){
             console.log(result,"r")
             var token = jwt.sign({ userid }, "1234" );
-            res.send({ "msg": "Login SucessFull", "token": token,toast:"s",user:user.firstname})
+            res.send({ "msg": "Login Sucessfull", "token": token,toast:"s",user:user.firstname})
            }
            else{
             res.send({ "msg": "wrong Credential",toast:"e" });           }

@@ -1,6 +1,5 @@
 const express =require("express")
 const cors=require("cors")
-const { Login } = require("./controller/Signup/Login.controller")
 const { connection } = require("./database/db")
 const { MensRoute } = require("./Route/Mens/Mens.route")
 const { LoginRoute } = require("./Route/Signup/Login.route")

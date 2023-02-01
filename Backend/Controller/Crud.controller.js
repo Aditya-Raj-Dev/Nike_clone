@@ -89,8 +89,8 @@ const Changequantity=(model)=> async (req,res)=>{
 
 const PostFavourite = (model) => async (req, res) => {
   try {
+    console.log(req.body) 
     const data = await model.create({ ...req.body, user: req.user._id });
-
     res.status(201).send(data);
   } catch (e) {
     res.status(500).send({ msg: "failed" });

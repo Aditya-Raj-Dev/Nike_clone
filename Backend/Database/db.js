@@ -1,5 +1,6 @@
 const mongoose =require("mongoose")
+require('dotenv').config()
 
-const connection =mongoose.connect("mongodb+srv://adi:123@cluster0.vgstopt.mongodb.net/nike")
+const connection =mongoose.connect(process.env.DB_URL)
 
 module.exports={connection}

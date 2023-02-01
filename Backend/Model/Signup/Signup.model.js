@@ -8,6 +8,7 @@ const SignupSchema= mongoose.Schema({
     dob:{type:Date,required:true},
     gender:{type:String,required:true},
    country:{type:String,required:true},
+   role:{type:String,default:"customer",enum:["customer","admin"]}
 },{timestamps:true},)
 
 const Signupmodel= mongoose.model("signup",SignupSchema)

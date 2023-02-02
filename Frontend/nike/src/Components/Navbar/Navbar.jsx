@@ -13,6 +13,7 @@ import { SearchProduct } from "../../Redux/Appreducer/Product/action";
 const Navbar = () => {
   const cred = useSelector((state) => state.authReducer);
   const product=useSelector((state)=>state.ProductReducer.prod)
+  console.log(useSelector((state)=>state.ProductReducer))
   const toast = useToast();
   const navigate = useNavigate();
   const dispatch = useDispatch();
@@ -24,7 +25,7 @@ const Navbar = () => {
    const prod=product.filter((item)=>{
     return item.title.toLowerCase()===searchTerm.toLowerCase()
    })
-   console.log(prod)
+  
   
    },[searchTerm,product.length])
     

@@ -8,6 +8,7 @@ import Favourite from "../Pages/Favourite/Favourite";
 import Home from "../Pages/Home/Home";
 import Men from "../Pages/Men/Men";
 import Mendetail from "../Pages/Men/Mendetail";
+import Payment from "../Pages/payment/Payment";
 import Login from "../Pages/Signup/Login";
 import Signup from "../Pages/Signup/Signup";
 import Women from "../Pages/Women/Women";
@@ -36,6 +37,7 @@ const Allroutes = () => {
         <Route path="/kids" element={<Kids />} />
         <Route path="/kids/:id" element={<Kidsdetail />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/payment" element={<Payment/>}/>
         <Route
           path="/checkout"
           element={

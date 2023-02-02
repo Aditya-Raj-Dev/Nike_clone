@@ -9,10 +9,18 @@ const initialstate = {
   showfilter: true,
   sort: false,
   cart: [],
+  shipping:{}
 };
 
 export const ProductReducer = (state = initialstate, { type, payload }) => {
+  console.log(payload)
   switch (type) {
+    case types.SHIPPING_DATA:{
+      return{
+        ...state,
+        shipping:{...payload}
+      }
+    }
     case types.UPDATE_CART_ITEM: {
       return {
         ...state,

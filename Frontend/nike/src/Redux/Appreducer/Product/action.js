@@ -53,6 +53,7 @@ export const getData = (url, param) => async (dispatch) => {
 };
 
 export const ShowCartdata = (url, toast) => async (dispatch) => {
+  console.log("url",url)
   return axios
     .get(url)
     .then((r) => {
@@ -99,4 +100,8 @@ export const UpdateCartItem = (url, qty, toast) => async (dispatch) => {
 
 export const SearchProduct=(prod)=>async(dispatch)=>{
 console.log(prod)
+}
+
+export const Shippingdata=(data)=>async(dispatch)=>{
+  dispatch({type:types.SHIPPING_DATA,payload:data})
 }

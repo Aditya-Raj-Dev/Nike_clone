@@ -1,13 +1,12 @@
-import { type } from "@testing-library/user-event/dist/type";
 import axios from "axios";
-import { useToast } from "@chakra-ui/react";
 import {
   removefromlocalstorage,
   setTolocalstorage,
 } from "../../Components/Localstotage/Localstorage";
 import * as types from "./action.types";
 import { setToast } from "../../Function/Toastfunction";
-import { Navigate } from "react-router-dom";
+
+
 
 export const GetSignupsuccess = (cred, toast, navigate) => async (dispatch) => {
   console.log(cred);
@@ -36,10 +35,11 @@ export const GetLoginsuccess =
   (data, toast, nav, navigate) => async (dispatch) => {
     axios({
       method: "POST",
-      url: "https://nike-backend-bw9b.onrender.combw9b.onrender.combw9b.onrender.com/login",
+      url: "https://nike-backend-bw9b.onrender.com/login",
       data: data,
     })
       .then((r) => {
+        console.log(r.data)
         if(r.data.toast==="s"){
           setToast(toast, "Login successfull", "You can Shop Now", "success");
           dispatch({ type: types.LOGIN_SUCCESS, payload: r.data });
@@ -48,11 +48,12 @@ export const GetLoginsuccess =
           navigate(nav);
         }
         else{
-          setToast(toast, `${r.data.msg}`, "Please login again", "error");
+          setToast(toast, `${r.data.msg}`, "", "error");
         }
       
       })
       .catch((e) => {
+        console.log(e)
         setToast(toast, "Login Failed", "Please login again", "error");
         dispatch({ type: types.LOGIN_FAILED, payload: e });
       });

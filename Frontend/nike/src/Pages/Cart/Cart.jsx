@@ -13,7 +13,6 @@ import { Select } from "@chakra-ui/react";
 import { BsHeart, BsFillQuestionCircleFill } from "react-icons/bs";
 import { RiDeleteBin6Line } from "react-icons/ri";
 import "./cart.css";
-
 import { useNavigate } from "react-router-dom";
 
 const Cart = () => {
@@ -21,6 +20,7 @@ const Cart = () => {
   const dispatch = useDispatch();
   const toast = useToast();
   const data = useSelector((state) => state.ProductReducer.cart);
+ const URL=process.env.URL
 
   let price = data.reduce((acc, curr) => {
     return acc + curr.price * curr.quantity;

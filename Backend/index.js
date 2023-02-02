@@ -19,7 +19,7 @@ app.use("/signup",SignupRoute)
 app.use("/login",LoginRoute)
 app.use("/mens",MensRoute)
 app.use("/bag", BagRoute)
-app.use("/women",WomenRoute)
+app.use("/women",WomenRoute) 
 app.use("/kids",KidsRoute)
 app.use("/favourite",authenication,FavouriteRoute)
 

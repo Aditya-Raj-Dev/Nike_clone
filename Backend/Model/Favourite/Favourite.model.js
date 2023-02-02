@@ -13,7 +13,8 @@ const FavouritesSchema= mongoose.Schema({
     rating:FavouriteNumber,
     description:FavouriteString,
     price:FavouriteNumber,
-    color:FavouriteString
+    color:FavouriteString,
+    user:FavouriteString
 },
 {versionKey:false},)
 

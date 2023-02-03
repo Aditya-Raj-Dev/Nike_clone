@@ -25,7 +25,7 @@ app.use("/favourite",authenication,FavouriteRoute)
 
 app.get("/",(req,res)=>{
     res.send("Welcome to my world")
- })
+ }) 
 
  
 app.listen(8080,async()=>{

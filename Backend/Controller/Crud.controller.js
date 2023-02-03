@@ -89,16 +89,23 @@ const Changequantity=(model)=> async (req,res)=>{
 
 const PostFavourite = (model) => async (req, res) => {
   try {
-    const data = await model.create(req.body);
-    res.status(201).send(data);
+     const old=await model.find({_id:req.body._id})
+   if(old.length===0){
+ const data = await model.create({...req.body});
+    res.status(201).send({"msg":"success","data":data});
+   }
+   else{
+    res.send({"msg":"Already in Favourite"})
+   }
+   
   } catch (e) {
-    res.status(500).send({ msg: "failed" });
+    res.status(500).send({ msg: "failed", "err":e });
   }
 };
 
 const getFavourites = (model) => async (req, res) => {
   try {
-    const data = await model.find({ user: req.user });
+    const data = await model.find({ user: req.body.user });
     res.status(201).send(data);
   } catch (e) {
     res.status(500).send({ msg: "failed" });

@@ -25,7 +25,7 @@ const navigate=useNavigate()
         color:searchparam.getAll("color")
       }
     }
-    dispatch(getData(`https://nike-backend-bw9b.onrender.com/${url}`,prodparam));
+    dispatch(getData(`https://nike-backend-q8of.onrender.com//${url}`,prodparam));
     if (prod.length > 0) {
       setData(prod);
     }

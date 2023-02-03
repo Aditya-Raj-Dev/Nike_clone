@@ -31,11 +31,11 @@ const Cart = () => {
     // if(e===qty){
     //   setToast(toast,`Quantity is Already ${qty}`,"",'info')
     // }
-    dispatch(UpdateCartItem(`https://nike-backend-bw9b.onrender.com/bag/${id}`, e, toast));
+    dispatch(UpdateCartItem(`https://nike-backend-q8of.onrender.com//bag/${id}`, e, toast));
   }
 
   useEffect(() => {
-    dispatch(ShowCartdata("https://nike-backend-bw9b.onrender.com/bag", toast));
+    dispatch(ShowCartdata("https://nike-backend-q8of.onrender.com//bag", toast));
   }, []);
 
   return (
@@ -152,7 +152,7 @@ const Cart = () => {
                       onClick={() =>
                         dispatch(
                           DeleteCartItem(
-                            `https://nike-backend-bw9b.onrender.com/bag/${item._id}`,
+                            `https://nike-backend-q8of.onrender.com//bag/${item._id}`,
                             toast
                           )
                         )

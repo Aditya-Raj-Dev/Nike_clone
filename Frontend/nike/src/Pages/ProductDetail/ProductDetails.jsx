@@ -39,7 +39,7 @@ const ProductDetails = ({product,url}) => {
     prod[0].quantity=1
     axios({
       method:"POST",
-      url:"https://nike-backend-bw9b.onrender.com/bag",
+      url:"https://nike-backend-q8of.onrender.com//bag",
       data:prod[0]
     }).then((r)=>{
     if(r.data.toast==="s"){

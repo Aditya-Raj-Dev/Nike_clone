@@ -31,11 +31,11 @@ const Cart = () => {
     // if(e===qty){
     //   setToast(toast,`Quantity is Already ${qty}`,"",'info')
     // }
-    dispatch(UpdateCartItem(`https://nike-backend-q8of.onrender.com//bag/${id}`, e, toast));
+    dispatch(UpdateCartItem(`https://dull-jade-zebra-tie.cyclic.app/bag/${id}`, e, toast));
   }
 
   useEffect(() => {
-    dispatch(ShowCartdata("https://nike-backend-q8of.onrender.com//bag", toast));
+    dispatch(ShowCartdata("https://dull-jade-zebra-tie.cyclic.app/bag", toast));
   }, []);
 
   return (
@@ -152,7 +152,7 @@ const Cart = () => {
                       onClick={() =>
                         dispatch(
                           DeleteCartItem(
-                            `https://nike-backend-q8of.onrender.com//bag/${item._id}`,
+                            `https://dull-jade-zebra-tie.cyclic.app/bag/${item._id}`,
                             toast
                           )
                         )

@@ -10,7 +10,7 @@ const Womendetails = () => {
   const product=useSelector((state)=>state.ProductReducer.singleprod)
 
   useEffect(()=>{
-    dispatch(Showsingleproduct(`https://nike-backend-q8of.onrender.com//women/${id}`))
+    dispatch(Showsingleproduct(`https://dull-jade-zebra-tie.cyclic.app/women/${id}`))
    },[])
    console.log(product)
   return (

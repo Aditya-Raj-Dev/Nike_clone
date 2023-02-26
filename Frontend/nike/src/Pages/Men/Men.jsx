@@ -25,7 +25,7 @@ const navigate=useNavigate()
         color:searchparam.getAll("color")
       }
     }
-    dispatch(getData("https://nike-backend-q8of.onrender.com//mens",prodparam));
+    dispatch(getData("https://dull-jade-zebra-tie.cyclic.app/mens",prodparam));
     if (prod.length > 0) {
       setData(prod);
     }

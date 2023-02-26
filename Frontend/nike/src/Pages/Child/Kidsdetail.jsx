@@ -12,7 +12,7 @@ const Kidsdetail = () => {
 
 
   useEffect(()=>{
-    dispatch(Showsingleproduct(`https://nike-backend-q8of.onrender.com//kids/${id}`))
+    dispatch(Showsingleproduct(`https://dull-jade-zebra-tie.cyclic.app/kids/${id}`))
    },[])
   return (
     <ProductDetails product={product}/>

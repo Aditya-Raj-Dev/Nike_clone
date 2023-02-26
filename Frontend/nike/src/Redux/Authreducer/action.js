@@ -12,7 +12,7 @@ export const GetSignupsuccess = (cred, toast, navigate) => async (dispatch) => {
   console.log(cred);
   axios({
     method: "POST",
-    url: "https://nike-backend-q8of.onrender.com//signup",
+    url: "https://dull-jade-zebra-tie.cyclic.app/signup",
     data: cred,
   })
     .then((r) => {
@@ -35,7 +35,7 @@ export const GetLoginsuccess =
   (data, toast, nav, navigate) => async (dispatch) => {
     axios({
       method: "POST",
-      url: "https://nike-backend-q8of.onrender.com//login",
+      url: "https://dull-jade-zebra-tie.cyclic.app/login",
       data: data,
     })
       .then((r) => {

@@ -10,7 +10,7 @@ const Mendetail = () => {
   const dispatch=useDispatch()
 
   useEffect(()=>{
-   dispatch(Showsingleproduct(`https://nike-backend-q8of.onrender.com//mens/${id}`))
+   dispatch(Showsingleproduct(`https://dull-jade-zebra-tie.cyclic.app/mens/${id}`))
   },[])
   return (
     <div>

@@ -42,8 +42,15 @@ const Allroutes = () => {
           path="/checkout"
           element={
             <PrivateRoute>
-              {" "}
               <Checkout />
+            </PrivateRoute>
+          }
+        />
+         <Route
+          path="/favourite"
+          element={
+            <PrivateRoute>
+              <Favourite />
             </PrivateRoute>
           }
         />

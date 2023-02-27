@@ -75,8 +75,8 @@ const Navbar = () => {
 
         {/* 2nd div */}
         <div className="navbarcart">
-          <input placeholder=" Search" size="sm" className="navsearch"  onChange={(e) => setSearchTerm(e.target.value)} />
-          <BiHeart fontSize="30px" className="circle" />
+          {/* <input placeholder=" Search" size="sm" className="navsearch"  onChange={(e) => setSearchTerm(e.target.value)} /> */}
+          <BiHeart fontSize="30px" className="circle" onClick={()=>navigate("/favourite")} />
           <HiOutlineShoppingBag
             fontSize="29px"
             className="circle"

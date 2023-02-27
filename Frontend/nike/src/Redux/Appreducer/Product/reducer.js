@@ -9,12 +9,30 @@ const initialstate = {
   showfilter: true,
   sort: false,
   cart: [],
-  shipping:{}
+  shipping:{},
+  fav:[]
 };
 
 export const ProductReducer = (state = initialstate, { type, payload }) => {
   console.log(payload)
   switch (type) {
+    case types.DELETE_FAV:{
+      return {
+        ...state,
+         fav:payload
+      }
+    }
+    case types.SHOW_ALL_FAV:{
+      return {
+        ...state,
+         fav:payload
+      }
+    }
+    case types.ADD_TO_FAV:{
+      return {
+        ...state,
+      }
+    }
     case types.SHIPPING_DATA:{
       return{
         ...state,

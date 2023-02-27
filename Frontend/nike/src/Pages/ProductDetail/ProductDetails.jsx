@@ -7,15 +7,32 @@ import { FaShoppingBag } from 'react-icons/fa';
 import { BsHeart } from 'react-icons/bs';
 import axios from 'axios'
 import { useToast } from '@chakra-ui/react'
+import { useDispatch } from 'react-redux'
+import { Addtofav } from '../../Redux/Appreducer/Product/action'
+import { useNavigate } from 'react-router-dom'
 
 const ProductDetails = ({product,url}) => {
+  const navigate=useNavigate()
   const [size,setSize]=useState('')
   const [sizeselected,setSizeselected]=useState(false)
   const toast=useToast()
+  const dispatch=useDispatch()
       
   function handlesize(e){
     setSize(e.target.textContent)
      setSizeselected(!sizeselected)
+  }
+
+  function addtofav(prod){
+    console.log(prod)
+    delete prod._id
+   dispatch(Addtofav(prod,toast))
+   .then((r)=>{
+     if(r==="login"){
+      navigate("/login")
+     }
+   })
+   
   }
   function handlereset(){
     setSize("")
@@ -181,6 +198,7 @@ const ProductDetails = ({product,url}) => {
                    </Button>
 
                   <Button
+                  onClick={()=>addtofav(item)}
                   marginTop="15px"
                   width={["210px","350px"]}
                   rightIcon={<BsHeart fontSize="20px"/>}>

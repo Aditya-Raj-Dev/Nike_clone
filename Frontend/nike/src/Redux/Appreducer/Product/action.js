@@ -105,3 +105,64 @@ console.log(prod)
 export const Shippingdata=(data)=>async(dispatch)=>{
   dispatch({type:types.SHIPPING_DATA,payload:data})
 }
+
+
+export const Addtofav=(data,toast)=>async(dispatch)=>{
+  return axios({
+    url:"https://dull-jade-zebra-tie.cyclic.app/favourite",
+    method:"POST",
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': JSON.parse(localStorage.getItem("token"))
+  },
+   data:data
+  })
+  .then((r)=>{
+    console.log(r,"res")
+    if(r.data.msg==="please login "){
+      setToast(toast, "Please Login First", "", "error");
+      return "login"
+    }
+    else if(r.data.msg==="Already in Favourite"){
+      setToast(toast, "Already in Favourite", "", "info");
+    
+    }
+    else if(r.data.msg==="success"){
+      dispatch({type:types.ADD_TO_FAV})
+      setToast(toast, "Product Added to Favourite", "", "success");
+    }
+  })
+  .catch((e)=>{
+    console.log(e)
+    setToast(toast, "Something went Wrong", "", "error");
+  })
+}
+
+export const showallfav=()=>async(dispatch)=>{
+  return axios({
+    url:"https://dull-jade-zebra-tie.cyclic.app/favourite",
+    method:"get",
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': JSON.parse(localStorage.getItem("token"))
+  }
+  })
+  .then((r)=>{
+    console.log(r.data,"action")
+    dispatch({type:types.SHOW_ALL_FAV,payload:r.data})
+  })
+}
+
+export const deletefav=(id)=>async(dispatch)=>{
+  return axios({
+    url:`https://dull-jade-zebra-tie.cyclic.app/favourite/${id}`,
+    method:"DELETE",
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': JSON.parse(localStorage.getItem("token"))
+  }
+  }).then((r)=>{
+    console.log(r)
+    dispatch({type:types.DELETE_FAV,payload:r.data.data})
+  })
+}

@@ -19,3 +19,7 @@ export const UPDATE_CART_ITEM = "UPDATE_CART_ITEM";
 
 export const SEARCH_PRODUCT="SEARCH_PRODUCT";
 export const SHIPPING_DATA="SHIPPING_DATA"
+
+export const ADD_TO_FAV="ADD_TO_FAV";
+export const SHOW_ALL_FAV="SHOW_ALL_FAV";
+export const DELETE_FAV="DELETE_FAV";
